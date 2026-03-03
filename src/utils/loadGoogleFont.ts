@@ -36,14 +36,14 @@ async function loadGoogleFonts(
 > {
   const fontsConfig = [
     {
-      name: "IBM Plex Mono",
-      font: "IBM+Plex+Mono",
-      weight: 400,
+      name: "Archivo",
+      font: "Archivo",
+      weight: 300,
       style: "normal",
     },
     {
-      name: "IBM Plex Mono",
-      font: "IBM+Plex+Mono",
+      name: "Archivo",
+      font: "Archivo",
       weight: 700,
       style: "bold",
     },
