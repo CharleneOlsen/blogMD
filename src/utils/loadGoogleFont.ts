@@ -36,14 +36,14 @@ async function loadGoogleFonts(
 > {
   const fontsConfig = [
     {
-      name: "Archivo",
-      font: "Archivo",
-      weight: 300,
+      name: "Oswald",
+      font: "Oswald",
+      weight: 400,
       style: "normal",
     },
     {
-      name: "Archivo",
-      font: "Archivo",
+      name: "Oswald",
+      font: "Oswald",
       weight: 700,
       style: "bold",
     },
