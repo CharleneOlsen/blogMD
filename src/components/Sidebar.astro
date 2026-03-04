@@ -1,0 +1,86 @@
+---
+import { SITE } from "@/config";
+import IconMoon from "@/assets/icons/IconMoon.svg";
+import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
+import IconSearch from "@/assets/icons/IconSearch.svg";
+import Socials from "./Socials.astro";
+
+const { pathname } = Astro.url;
+
+const nav = [
+  { label: 'posts', href: '/posts/' },
+  { label: 'tags', href: '/tags/' },
+  { label: 'about me', href: '/about-me/' },
+  { label: 'archives', href: '/archives/' }
+];
+
+const quote = "A minimal Astro theme\nfor essays, notes, and docs.\nDesigned for reading,\nopen-source.";
+---
+
+<aside class="sidebar flex h-full flex-col items-end p-8 text-end">
+  <a class="mt-12 text-4xl font-bold tracking-tighter hover:text-accent" href="/">
+    {SITE.title}
+  </a>
+
+  <div class="sidebar__quote mt-4 text-sm italic opacity-70 lowercase">
+    {quote.split('\n').map((line) => (
+      <>
+        {line}<br />
+      </>
+    ))}
+  </div>
+
+  <nav class="mt-12">
+    <ul class="flex flex-col items-end gap-4">
+      {nav.map((item) => {
+        const isActive = pathname === item.href || (item.href !== '/' && pathname.startsWith(item.href));
+        return (
+          <li class="group">
+            <a 
+              href={item.href} 
+              class:list={[
+                "flex items-center gap-2 lowercase transition-all hover:text-accent",
+                { "text-accent font-medium": isActive }
+              ]}
+            >
+              <span>{item.label}</span>
+              <span class:list={[
+                "size-1 rounded-full bg-foreground opacity-20 transition-all group-hover:bg-accent group-hover:opacity-100",
+                { "bg-accent opacity-100": isActive }
+              ]} aria-hidden="true"></span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  </nav>
+
+  <div class="sidebar-actions mt-4 flex justify-end gap-2">
+    <a href="/search" class="p-2 hover:text-accent" title="search">
+      <IconSearch class="size-5" />
+    </a>
+
+    <button id="theme-btn" class="p-2 hover:text-accent" title="toggle theme">
+      <IconMoon class="size-5 dark:hidden" />
+      <IconSunHigh class="size-5 hidden dark:block" />
+    </button>
+  </div>
+
+  <div class="mt-8 flex flex-col items-end gap-4 border-t border-border/30 pt-8 w-full">
+    <Socials centered={false} /> 
+  </div>
+</aside>
+
+<script>
+  // Přidáme stejnou logiku pro přepínání témat jako má Header
+  function setupTheme() {
+    const themeBtn = document.querySelector("#theme-btn");
+    themeBtn?.addEventListener("click", () => {
+      const isDark = document.documentElement.getAttribute("data-theme") === "dark";
+      document.documentElement.setAttribute("data-theme", isDark ? "light" : "dark");
+      localStorage.setItem("theme", isDark ? "light" : "dark");
+    });
+  }
+  setupTheme();
+  document.addEventListener("astro:after-swap", setupTheme);
+</script>

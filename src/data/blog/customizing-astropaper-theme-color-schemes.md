@@ -137,7 +137,7 @@ Here is an example of changing the light color scheme.
 :root,
 html[data-theme="light"] {
   --background: #f6eee1;
-  --foreground: #012c56;
+  --foreground: #bbddff;
   --accent: #e14a39;
   --muted: #efd8b0;
   --border: #dc9891;

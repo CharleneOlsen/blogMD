@@ -6,18 +6,28 @@
 :root,
 html[data-theme="light"] {
   --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
+  --foreground: #00082B;
+  --accent: #e7ab12;
   --muted: #e6e6e6;
-  --border: #ece9e9;
+  /* --muted: #0FFFF3; */
+  --border: #b6b6b6;
+  --scroll-bar: #FF370F;
 }
 
+/* 
+other colors:
+#FFBB0F mustard
+#FF370F blood red
+#0FFFF3 turquoise
+*/
+
 html[data-theme="dark"] {
-  --background: #212737;
+  --background: #252525;
   --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --accent: #e7ab12;;
+  --muted: #464b58;
+  --border: #b9b9b9;
+  --scroll-bar: #FF370F;
 }
 
 @theme inline {
@@ -27,13 +37,14 @@ html[data-theme="dark"] {
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --color-scroll-bar: var(--scroll-bar);
 }
 
 @layer base {
   * {
     @apply border-border outline-accent/75;
     scrollbar-width: auto;
-    scrollbar-color: var(--color-muted) transparent;
+    scrollbar-color: var(--color-scroll-bar) transparent;
   }
   html {
     @apply overflow-y-scroll scroll-smooth;

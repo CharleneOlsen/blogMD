@@ -1,6 +1,7 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
+import Sidebar from "@/components/Sidebar.astro"
 import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
@@ -167,10 +168,21 @@ const structuredData = {
       })();
     </script>
   </head>
-  <body>
-    <slot />
+  <body class="flex min-h-screen flex-col md:flex-row bg-background text-foreground">
+    
+    <div 
+      class="w-full md:w-64 lg:w-80 md:fixed md:h-screen bg-background z-50"
+      style="box-shadow: 8px 0 0 0 #FF370F, 16px 0 0 0 #FFBB0F, 24px 0 0 0 #0FFFF3;"
+    >
+      <Sidebar />
+    </div>
 
-    <!-- Load full theme logic -->
+    <div class="flex-1 md:ml-64 lg:ml-80">
+      <main id="main-content" class="py-12 px-6 pl-2 md:pl-2 md:pr-12 lg:pl-4 lg:pr-24">
+        <slot />
+      </main>
+    </div>
+
     <script src="../scripts/theme.ts"></script>
   </body>
 </html>

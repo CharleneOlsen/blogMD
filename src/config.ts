@@ -3,16 +3,16 @@ export const SITE = {
   author: "Milana Dejaková",
   profile: "https://milanadejakova.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "MD doing MD",
+  title: "MY BLOG",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerIndex: 4,
-  postPerPage: 4,
+  postPerIndex: 1000,
+  postPerPage: 1000,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    enabled: true,
+    enabled: false,
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },

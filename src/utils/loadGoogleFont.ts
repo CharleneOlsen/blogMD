@@ -36,14 +36,14 @@ async function loadGoogleFonts(
 > {
   const fontsConfig = [
     {
-      name: "Oswald",
-      font: "Oswald",
+      name: "IBM Plex Mono",
+      font: "IBM+Plex+Mono",
       weight: 400,
       style: "normal",
     },
     {
-      name: "Oswald",
-      font: "Oswald",
+      name: "IBM Plex Mono",
+      font: "IBM+Plex+Mono",
       weight: 700,
       style: "bold",
     },
