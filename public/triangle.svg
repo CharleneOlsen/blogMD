@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="67mm"
+   height="56mm"
+   viewBox="0 0 67 56"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   sodipodi:docname="myIcon2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="3.1536195"
+     inkscape:cx="99.251034"
+     inkscape:cy="134.29014"
+     inkscape:window-width="1920"
+     inkscape:window-height="1129"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:clip-to-page="true" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-65.186514,-82.51871)">
+    <circle
+       style="fill:#00f8ec;fill-opacity:1;stroke-width:0.264583"
+       id="path1"
+       cx="25.67288"
+       cy="36.747459"
+       r="33" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffcf0f;fill-opacity:1;stroke-width:0.264583"
+       id="path4"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="-107.05424"
+       sodipodi:cy="68.125427"
+       sodipodi:r1="58.728813"
+       sodipodi:r2="29.364407"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m -107.05424,126.85424 -50.86064,-88.093218 101.721286,-3e-6 z"
+       inkscape:transform-center-y="-9.191056"
+       transform="matrix(-0.6534348,0,0,-0.62600055,28.718126,162.28264)"
+       inkscape:transform-center-x="1.1565262e-05" />
+    <ellipse
+       style="fill:#ff370f;fill-opacity:1;stroke-width:0.330923"
+       id="path5"
+       cx="10.265213"
+       cy="180.09715"
+       rx="16.966646"
+       ry="16.136097" />
+  </g>
+</svg>
