@@ -50,7 +50,7 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "RSS", 
-    href: "/pages/rss.xml",
+    href: "/rss.xml",
     linkTitle: `RSS Feed`,
     icon: IconRss,
   },
