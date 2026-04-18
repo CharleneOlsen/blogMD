@@ -30,12 +30,12 @@ export const SOCIALS: Social[] = [
   //   linkTitle: `${SITE.title} on X`,
   //   icon: IconBrandX,
   // },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
-  },
+  // {
+  //   name: "LinkedIn",
+  //   href: "https://www.linkedin.com/in/username/",
+  //   linkTitle: `${SITE.title} on LinkedIn`,
+  //   icon: IconLinkedin,
+  // },
   {
     name: "Mail",
     href: "mailto:milanadejakova725@gmail.com",
@@ -44,7 +44,7 @@ export const SOCIALS: Social[] = [
   },
   {
     name: "Instagram",
-    href: "https://www.instagram.com/mmilkade/",
+    href: "https://www.instagram.com/charleneolsen_art/",
     linkTitle: `${SITE.title} on Instagram`,
     icon: IconPinterest,
   },

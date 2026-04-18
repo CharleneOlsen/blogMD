@@ -3,7 +3,7 @@ export const SITE = {
   author: "Milana Dejaková",
   profile: "https://milanadejakova.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "MY BLOG",
+  title: "Alchemist's journal",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 1000,
