@@ -19,6 +19,16 @@ export default defineConfig({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
   ],
+  fonts: [
+    {
+      name: "Archivo",
+      cssVariable: "--font-google-sans-code",
+      provider: fontProviders.google(),
+      fallbacks: ["monospace"],
+      weights: [300, 400, 500, 600, 700],
+      styles: ["normal", "italic"],
+    },
+  ],
   markdown: {
     remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
@@ -57,17 +67,17 @@ export default defineConfig({
       }),
     },
   },
-  experimental: {
-    preserveScriptOrder: true,
-    fonts: [
-      {
-        name: "Archivo",
-        cssVariable: "--font-google-sans-code",
-        provider: fontProviders.google(),
-        fallbacks: ["monospace"],
-        weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
-      },
-    ],
-  },
+  // experimental: {
+  //   preserveScriptOrder: true,
+  //   fonts: [
+  //     {
+  //       name: "Archivo",
+  //       cssVariable: "--font-google-sans-code",
+  //       provider: fontProviders.google(),
+  //       fallbacks: ["monospace"],
+  //       weights: [300, 400, 500, 600, 700],
+  //       styles: ["normal", "italic"],
+  //     },
+  //   ],
+  // },
 });
