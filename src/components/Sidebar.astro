@@ -14,7 +14,7 @@ const nav = [
   { label: 'archives', href: '/archives/' }
 ];
 
-const quote = "Writing from the city of Alchemists\n, using supercomputers (MD) to study the elements\n, while walking the same streets as Rilke and Kafka.";
+const quote = "writing from the city of alchemists,\n using computers to study the world,\n while walking the same streets as Kafka";
 ---
 
 <aside class="sidebar flex h-full flex-col items-end p-8 text-end">
@@ -22,7 +22,7 @@ const quote = "Writing from the city of Alchemists\n, using supercomputers (MD) 
     {SITE.title}
   </a>
 
-  <div class="sidebar__quote mt-4 text-sm italic opacity-70 lowercase">
+  <div class="sidebar__quote mt-4 text-sm italic opacity-70">
     {quote.split('\n').map((line) => (
       <>
         {line}<br />
