@@ -10,6 +10,7 @@ tags:
   - Life-is-Strange
 description: My experience with early gaming, watching youtubers and first gameplay of Life is Strange.
 ---
+*This post is under construction*
 
 Have you ever had a game that had quite literally changed the course of your life? Or maybe a game that helped you get perspective on a difficult decision in your life? Or maybe a game that helped you realise something that just stuck with you forever?
 
@@ -17,8 +18,8 @@ I have a few of such games that just changed me, my perspective, gave me reasons
 
 I had two such games. First, on which I will place my sole focus today, is the game **Life is Strange**. Oh boy, this game, has stood the challenge of the years for me. I think it is highly relevant today, and the overall gameplay still feels fresh.
 
-==!!SPOILERS AHEAD!!==
-
+!!SPOILERS AHEAD FOR LIFE IS STRANGE!!
+-------------------
 ## A quick story recap
 The game is about a girl who, due to the traumatic events, develops a superpower, time rewind. And the whole gameplay revolves around her having this power and how she solves problems in her life. This is a horrible simplification of the game’s story, but it will suffice for now.
 
