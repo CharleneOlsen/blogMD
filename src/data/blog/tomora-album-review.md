@@ -10,13 +10,14 @@ tags:
   - album
   - TOMORA
   - AURORA
+  - review
 description: Some of my thoughts on TOMORA's new album COME CLOSER.
 ---
 I’ve been listening to AURORA since I was a child. I discovered her in elementary school, where one of my friend at the time presented her as her favourite artist. I actually didn’t listen to her then, but started maybe two years later. And when I discovered her on my own terms, it was a truly deep connection.
 
 For me, AURORA will have a special place in my heart. She helped me tremendously with my depression and with the transition stage of becoming the woman I am today. She inspired my write hair, and she did incentivise me to experiment with my hair, leading to the pixie hairstyle that I am well known for. She showed me that I can dress funky, that I can experiment with myself, and to live to the fullest. I will be forever thankful to her for that.
 
-But about the album. I already loved her early collaboration with The Chemical Brothers, so I wasn’t as shocked about the formation of the group. It is natural for artist to want to create time to time something outside their genre, just to have fun and experiment. This is what AURORA was always about. And also, let’s be honest, her last album **What Happened To The Heart?.** It was already very electronic compared to her previous albums, which were softer.
+But about the album. I already loved her early collaboration with The Chemical Brothers, so I wasn’t as shocked about the formation of the group. It is natural for artist to want to create time to time something outside their genre, just to have fun and experiment. This is what AURORA was always about. And also, let’s be honest, her last album **What Happened To The Heart?.** It was already very electronic compared to her previous albums, which were softer. 
 
 As an electronic girly myself, I loved this album. But oh my god, how amazing it actually is. The transitions between songs actually make sense?? I feel that the purpose of the album is to convey an emotion, a feeling, to stir something in a listener. Most of the albums today feel just like a list of songs rather than one comprehensive work of art. With that being said, I do not hate the average album. I mean the album that is just there to be released with other songs. I just truly enjoy well thought album with a story behind it. But art is a definition of freedom, so anybody is free to create any album their heart desires.
 

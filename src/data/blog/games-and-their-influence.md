@@ -8,7 +8,8 @@ draft: false
 tags:
   - game
   - Life-is-Strange
-description: My experience with early gaming, watching youtubers and first gameplay of Life is Strange.
+  - review
+description: My experience with early gaming, watching youtubers, and first gameplay of Life is Strange.
 ---
 *This post is under construction*
 
