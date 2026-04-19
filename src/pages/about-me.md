@@ -2,36 +2,21 @@
 layout: ../layouts/AboutLayout.astro
 title: "About me"
 ---
+Who am I? Why am I here? What are you doing here?
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Well, I can help you answer first two questions. Last one is your own homework.
 
-![Astro Paper](public/astropaper-og.jpg)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+Hello again,
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+my name is Charli and I'm 23 years old. I'm from Czech Republic, currently (and my whole life) living in the capital city **Prague**. I study a Chemical Engineering here and also writing a blog.
 
-## Features
+So, why am I here? 
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+I'm here because I always wanted to. I always admired people who had their own blog. I'm not really sure even why. I am here to write my ideas, my stories, my observations. I do think people have a lot to offer and I want to give you my piece of mind. This blog is made for sole purpose of sharing my ideas and a young engineer and artist. I read a lot of books, I like to find new studies, observe people in various work fields. I would like to bridge gaps here in this digital sanctuary. I want to connect art and science, because I believe that both entities are inseparable. They are just a different sides of the same coin and when we look at it from afar, it is truly one thing. 
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+Some may ask, why not to use social media like a 'normal' human being. And I will answer you that I, of course, do have social media (you can follow me there). But recently I've been battling with it a lot. I hate that I don't have a full control over my content as much as I would like to. I also don't want to use a ton of different social media platforms to fill my time. I want to write and share without the need to optimise my content for a soul crashing algorithm. Which I understand the irony here, I will still be battling the Google search and AI algorithm, but at least this is my space with my colours. 
 
-and so much more.
+I invite you to read any post of your own choosing and hopefully I will give you some thought to think about today.
 
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+Hope life treats you well, fellow human being.
