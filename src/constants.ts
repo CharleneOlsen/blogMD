@@ -22,7 +22,7 @@ export const SOCIALS: Social[] = [
   {
     name: "GitHub",
     href: "https://github.com/CharleneOlsen/",
-    linkTitle: `${SITE.title} on GitHub`,
+    linkTitle: `ME on GitHub`,
     icon: IconGitHub,
   },
   // {
@@ -40,13 +40,13 @@ export const SOCIALS: Social[] = [
   {
     name: "Mail",
     href: "mailto:milanadejakova725@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    linkTitle: `Send an email to ME`,
     icon: IconMail,
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/charleneolsen_art/",
-    linkTitle: `${SITE.title} on Instagram`,
+    linkTitle: `$ME on Instagram`,
     icon: IconInstagram,
   },
   {
