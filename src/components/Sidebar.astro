@@ -66,8 +66,23 @@ const quote = "writing from the city of alchemists,\n using computers to study t
     </button>
   </div>
 
+
   <div class="mt-8 flex flex-col items-end gap-4 border-t border-border/30 pt-8 w-full">
-    <Socials centered={false} /> 
+    <Socials centered={false} />
+  </div>
+
+  <div class="mt-8 flex flex-col items-end gap-4 border-t border-border/30 pt-8 w-full">
+    <div class="flex flex-col items-end gap-4 mt-2">
+      <div class="flex flex-col items-end">
+        <span class="text-sm italic opacity-70">currently reading:</span>
+        <span class="text-sm hover:text-accent transition-colors">{SITE.reading}</span>
+      </div>
+      
+      <div class="flex flex-col items-end">
+        <span class="text-sm italic opacity-70">currently listening to:</span>
+        <span class="text-sm transition-colors">{SITE.listening}</span>
+      </div>
+    </div>
   </div>
 </aside>
 

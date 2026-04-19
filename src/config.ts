@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Milana Dejaková",
-  profile: "https://milanadejakova.dev/",
+  author: "Charlene Olsen",
+  profile: "https://charleneolsen.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
   title: "Alchemist's journal",
   ogImage: "astropaper-og.jpg",
@@ -16,6 +16,8 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
+  listening: "COME CLOSER by TOMORA",
+  reading: "RuPaul: In his own words",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
