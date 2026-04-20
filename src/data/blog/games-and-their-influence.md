@@ -3,7 +3,7 @@ title: Games and their influence
 author: Charlene Olsen
 pubDatetime: 2026-04-18T14:40:52.737Z
 slug:
-featured: true
+featured: false
 draft: false
 tags:
   - game
