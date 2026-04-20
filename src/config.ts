@@ -3,7 +3,7 @@ export const SITE = {
   author: "Charlene Olsen",
   profile: "https://charleneolsen.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Alchemist's journal",
+  title: "Alchemist's notes",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 1000,
