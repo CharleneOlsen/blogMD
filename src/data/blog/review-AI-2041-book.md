@@ -11,12 +11,13 @@ tags:
   - review
 description: These are my thoughts about book AI 2041 by Kai-Fu Lee and Chen Qiufan.
 ---
+*This post is under construction*
 ## My thoughts about the book
-This book looks very positively on the AI and its use in everyday life. But author doesn't consider the vast, already happening, issues. As estranging people from each other, as firm stealing data to teach new models, also the environmental issues with needing so much energy to run all this.
+This book looks very positively on the AI and its use in everyday life. I'm not sure if it was intention of the autor, but author doesn't consider the vast, already happening issues connected with everyday use of AI. These issues are such as estranging people from each other, as firm stealing data to teach new models, also the environmental issues with needing so much energy to run all this. There is so many issues but author really talks only about positives on people's lives.
 
-In one of the chapters in analysis, author writes that the plot of movie Her is very unlikely, which is not true. People are already marrying bots, falling in love with them and so on. And I don't think its a good thing. 
+In one of the chapters in analysis, author writes that the plot of movie Her is very unlikely, which is not true. People are already marrying bots, falling in love with them and so on. And I don't think it's a good thing. And by the way, it is a favourite movie of Sam Altman (CEO of OpenAI, the creator of ChatGPT). 
 
-I don't know, if I am just set in the old ways, or if the AI and bots will one day destroy the humanity as in Dune. 
+I don't know if I am just set in the old ways, or if the AI and bots will one day destroy the humanity as in Dune. Maybe I am a doomer, who sees only negatives. Of course, AI did change everything already. I use it personally to study more effectively, using it to test me. But we can't overlook issues, that this technology had created. I heard one quote in some video, and I paraphrase, AI is just exasperating the issues that are already present in society. 
 ## Twin Sparrows story
 ### Some quotes
 **page:** 92
@@ -34,9 +35,9 @@ The whole story of Twin Sparrows is very interesting. It explores consequences o
 
 What is interesting with Silver sparrow's family, is how they treat his data. The foster mom is all about giving the child privacy, although the foster dad slightly disagrees with her. All due to the usefulness of the provided data. The data, as he makes a point, can give a very helpful insight to the boy's mind. Due to the AI pal's reports, they know at what stage boy is, how much of the physical contact he can bear and so on.
 
-For me, in this sense, it is very much a breach of privacy into the child's life. It is equivalent to parents going through my things, or reading my text messages or there essays. Between parents and child should be trust, that child would trust their parents enough to tell them, what is truly happening in their life. I understand, that this data is very useful, that is not in question here. Its about the life that child would lead. Because I think, that if I knew, and boys knew, that somebody was at all times gathering data about me, I would very much change my behavior. I wouldn't be me and I think that's very bad for development. Imagine being analyzed about everything you do all the time.
+For me, in this sense, it is very much a breach of privacy into the child's life. It is equivalent to parents going through my things, or reading my text messages or their essays. Between parents and child should be trust, that child would trust their parents enough to tell them, what is truly happening in their life. I understand, that this data is very useful, that is not in question here. It's about the life that child would lead. Because I think, that if I knew, and boys knew, that somebody was at all times gathering data about me, I would very much change my behavior. I wouldn't be me and I think that's very bad for development. Imagine being analyzed about everything you do all the time.
 
-Also the idea of enrolling your child into a virtual classroom, where everyone, teachers and classmates, are AI is so horrible. Its depriving the child of human connections, that shape personality. 
+Also, the idea of enrolling your child into a virtual classroom, where everyone, teachers and classmates, are AI is so horrible. It's depriving the child of human connections, that shape personality. 
 
-The Golden sparrow was raised by AI and AI made him learn through competing with others. This is a similar way how my parents were raised and wanted to raise me. But I soon found out, that it doesn't suit me. I love to take time with learning, to understand things properly, and also, I'm not very good in olympics and so on.
+The Golden sparrow was raised by AI and AI made him learn through competing with others. This is a similar way how my parents were raised and wanted to raise me. But I soon found out, that it doesn't suit me. I love to take time with learning, to understand things properly, and also, I'm not very good in Olympics and so on. And that is, I do think totally valid. Nobody is the same and science Olympics, or any of such contests to that fact, shouldn't be a measurement of child's intelligence. 
 
