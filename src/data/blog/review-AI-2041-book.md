@@ -19,19 +19,6 @@ In one of the chapters in analysis, author writes that the plot of movie Her is 
 
 I don't know if I am just set in the old ways, or if the AI and bots will one day destroy the humanity as in Dune. Maybe I am a doomer, who sees only negatives, but AI already changed the game. I use it personally to study more effectively, using it to test me. But we can't overlook issues, that this technology had created. I heard one quote in some video, and I paraphrase, AI is just exasperating the issues that are already present in society. And I do think it is true, so we cannot maybe fully blame AI for all the issues in society, but AI was introduced very suddenly without any consensus that society has a need for this technology.
 ## Twin Sparrows story
-### Some quotes from this chapter
-**page:** 92
-"They critiqued the blind worship of science and technology. Through art, Homo Tekhne sought to restore dignity to humanity and revitalize the connection between humanity and nature."
-
-This is also, in large, my point of view. Art is about connections to others, nature and ourselves. Art is social in its nature, when created art sparks conversation, emotions in public. But what AI creates, it is not art. All art has a reason, even when it is created without one, it is already a reason. AI just generates, it steals people's art without their permission, without respecting one's ownership. And, in my humble opinion, it is disgusting. AI, as in generating any response, is only throwing everything to one blob and presenting it as something new, but in fact there is nothing original, because AI is incapable of creating an original piece. 
-
-**page:** 100
-"Humans could surpass AI only in places where machines couldn't reach, in realms like human sensitivity and intuition."
-
-**page:** 103
-"When you can't change the world, you have to change yourself."
-
-### Story review
 
 The whole story of Twin Sparrows is very interesting. It explores consequences of AI use from early age, but from different perspectives. The two boys, nicknamed Golden and Silver sparrow, were placed into different foster homes. The family of Golden sparrow is all about efficiency, high grades and big outcomes. They upgraded the personalized AI pal, enrolled boy to virtual classroom and always encourage boy to be better. On the other hand, Silver sparrow was always on the more artistic side, largely due to the Asperger's syndrome. His new family is very much about respecting the child and treating the AI pal as a tool, that helps boy navigate life. 
 
@@ -42,4 +29,21 @@ For me, in this sense, it is very much a breach of privacy into the child's life
 Also, the idea of enrolling your child into a virtual classroom, where everyone, teachers and classmates, are AI is so horrible. It's depriving the child of human connections, that shape personality. 
 
 The Golden sparrow was raised by AI and AI made him learn through competing with others. This is a similar way how my parents were raised and wanted to raise me. But I soon found out, that it doesn't suit me. I love to take time with learning, to understand things properly, and also, I'm not very good in Olympics and so on. And that is, I do think totally valid. Nobody is the same and science Olympics, or any of such contests to that fact, shouldn't be a measurement of child's intelligence. 
+
+### Some quotes from this chapter
+**page:** 92
+
+"They critiqued the blind worship of science and technology. Through art, Homo Tekhne sought to restore dignity to humanity and revitalize the connection between humanity and nature."
+
+This is also, in large, my point of view. Art is about connections to others, nature and ourselves. Art is social in its nature, when created art sparks conversation, emotions in public. But what AI creates, it is not art. All art has a reason, even when it is created without one, it is already a reason. AI just generates, it steals people's art without their permission, without respecting one's ownership. And, in my humble opinion, it is disgusting. AI, as in generating any response, is only throwing everything to one blob and presenting it as something new, but in fact there is nothing original, because AI is incapable of creating an original piece. 
+
+**page:** 100
+
+"Humans could surpass AI only in places where machines couldn't reach, in realms like human sensitivity and intuition."
+
+**page:** 103
+
+"When you can't change the world, you have to change yourself."
+
+
 
