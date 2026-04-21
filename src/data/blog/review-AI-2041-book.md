@@ -10,6 +10,7 @@ tags:
   - book
   - review
 description: These are my thoughts about book AI 2041 by Kai-Fu Lee and Chen Qiufan.
+modDatetime: 2026-21-04T10:59:05Z
 ---
 *This post is under construction*
 ## My thoughts about the book
