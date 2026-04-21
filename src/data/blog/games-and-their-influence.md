@@ -10,7 +10,7 @@ tags:
   - Life-is-Strange
   - review
 description: My experience with early gaming, watching YouTubers, and first ever gameplay of Life is Strange.
-modDatetime: 2026-21-04T10:59:05Z
+modDatetime: 2026-04-21T10:59:05Z
 ---
 *This post is under construction*
 
