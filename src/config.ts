@@ -16,7 +16,7 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  listening: "COME CLOSER by TOMORA",
+  listening: "Garden by Zero 7",
   reading: "RuPaul: In his own words",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
