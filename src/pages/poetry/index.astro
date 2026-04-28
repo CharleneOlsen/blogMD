@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Main from "@/layouts/Main.astro";
+import Datetime from "@/components/Datetime.astro";
 
 const allPoems = await getCollection("poetry");
 const sortedPoems = allPoems
@@ -14,11 +15,6 @@ const poems = await Promise.all(
     return {
       ...poem,
       Content,
-      date: poem.data.pubDatetime.toLocaleDateString("en-GB", {
-        day: "2-digit",
-        month: "short",
-        year: "numeric",
-      }),
       slug: poem.data.slug ?? poem.id.replace(/\.md$/, ""),
     };
   })
@@ -33,18 +29,18 @@ const poems = await Promise.all(
         return (
           <article
             data-poem-id={poem.slug}
-            class="relative flex h-full min-h-[360px] flex-col justify-between overflow-hidden rounded-xl border border-border/50 bg-background/95 p-6 shadow-[0_20px_45px_-25px_rgba(0,0,0,0.45)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_75px_-30px_rgba(0,0,0,0.5)]"
+            class="relative flex h-full min-h-[100px] flex-col justify-between overflow-hidden rounded-xl border-4 border-[#0FFFF3] bg-background/95 p-6 shadow-[0_20px_45px_-25px_rgba(0,0,0,0.45)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_28px_75px_-30px_rgba(0,0,0,0.5)]"
           >
             <div>
-              <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
-                <span class="rounded-full bg-accent/10 px-3 py-1 text-[0.65rem] font-bold uppercase tracking-[0.3em] text-accent">
-                  {poem.date}
-                </span>
+              <h2 class="inline-block text-lg font-medium text-accent underline-offset-4 hover:underline focus-visible:no-underline focus-visible:underline-offset-0">
+                {poem.data.title}
+              </h2>
+              <div class="mb-4 flex flex-wrap items-center justify-between gap-3 poem-date">
+                <Datetime pubDatetime={poem.data.pubDatetime} modDatetime={poem.data.modDatetime} size="sm" />
               </div>
-              <h2 class="text-xl font-semibold lowercase text-foreground">{poem.data.title}</h2>
-              <div class="mt-4 prose prose-sm max-w-none text-sm text-muted max-h-28 overflow-hidden">
+              <!-- <div class="mt-4 prose prose-sm max-w-none text-sm text-muted max-h-28 overflow-hidden">
                 <Component />
-              </div>
+              </div> -->
             </div>
             <div class="mt-6 flex justify-end">
               <button
@@ -52,7 +48,7 @@ const poems = await Promise.all(
                 class="group relative bg-background px-2 py-1 size-14 rounded-full shadow-xl text-sm font-semibold text-foreground transition hover:bg-accent/10 md:h-8 md:w-fit md:rounded-md md:shadow-none md:bg-background/35 md:bg-clip-padding md:backdrop-blur-lg"
                 data-poem-open={poem.slug}
               >
-                read note
+                read poem
               </button>
             </div>
             <div class="poem-html hidden">
@@ -67,17 +63,19 @@ const poems = await Promise.all(
       id="poem-overlay"
       class="fixed inset-0 z-50 hidden items-start justify-center bg-black/70 p-4 pt-20 backdrop-blur-sm"
     >
-      <div class="relative mx-auto flex w-full max-w-4xl min-h-[420px] max-h-[88vh] flex-col overflow-hidden rounded-xl border border-border/70 bg-background p-8 shadow-[0_24px_80px_-35px_rgba(0,0,0,0.8)]">
+      <div class="relative mx-auto flex w-full max-w-3xl min-h-[420px] max-h-[88vh] flex-col overflow-hidden rounded-xl border-4 border-[#0FFFF3] bg-background p-6 pb-16 shadow-[0_24px_80px_-35px_rgba(0,0,0,0.8)]">
         <button
           id="poem-close"
           type="button"
-          class="absolute right-4 top-4 group relative bg-background px-2 py-1 size-14 rounded-full shadow-xl text-sm font-semibold text-foreground transition hover:bg-accent/10 md:h-8 md:w-fit md:rounded-md md:shadow-none md:bg-background/35 md:bg-clip-padding md:backdrop-blur-lg"
+          class="absolute right-4 bottom-4 z-10 group bg-background px-2 py-1 size-14 rounded-full shadow-xl text-sm font-semibold text-foreground transition hover:bg-accent/10 md:h-8 md:w-fit md:rounded-md md:shadow-none md:bg-background/35 md:bg-clip-padding md:backdrop-blur-lg"
+          style="top: auto;"
         >
           close
         </button>
 
-        <h2 id="poem-modal-title" class="mt-3 text-4xl font-semibold lowercase text-foreground"></h2>
-        <div id="poem-modal-body" class="mt-6 prose prose-lg max-w-none text-foreground"></div>
+        <h2 id="poem-modal-title" class="mt-3 text-4xl font-semibold lowercase text-accent"></h2>
+        <div id="poem-modal-date" class="mt-2 text-sm opacity-80"></div>
+        <div id="poem-modal-body" class="mt-6 prose prose-lg max-w-none text-foreground whitespace-pre-line"></div>
       </div>
     </div>
   </Main>
@@ -87,6 +85,7 @@ const poems = await Promise.all(
     const overlay = document.getElementById("poem-overlay");
     const closeButton = document.getElementById("poem-close");
     const titleElem = document.getElementById("poem-modal-title");
+    const dateElem = document.getElementById("poem-modal-date");
     const bodyElem = document.getElementById("poem-modal-body");
 
     const setOverlayVisible = (visible) => {
@@ -102,6 +101,7 @@ const poems = await Promise.all(
         if (!card || !titleElem || !bodyElem) return;
 
         titleElem.textContent = card.querySelector("h2")?.textContent || "";
+        if (dateElem) dateElem.innerHTML = card.querySelector(".poem-date")?.innerHTML || "";
         bodyElem.innerHTML = card.querySelector(".poem-html")?.innerHTML ?? "";
         setOverlayVisible(true);
       });
