@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import enrichPosts from "@/utils/enrichPosts";
 import type { GetStaticPathsOptions } from "astro";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
@@ -11,7 +12,8 @@ import getPostsByTag from "@/utils/getPostsByTag";
 import { SITE } from "@/config";
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-  const posts = await getCollection("blog");
+  const rawPosts = await getCollection("blog");
+  const posts = await enrichPosts(rawPosts);
   const tags = getUniqueTags(posts);
 
   return tags.flatMap(({ tag, tagName }) => {

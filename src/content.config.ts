@@ -21,6 +21,8 @@ const blog = defineCollection({
       canonicalURL: z.string().optional(),
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
+
+      image: image().optional(),
     }),
 });
 
@@ -37,6 +39,8 @@ const poetry = defineCollection({
       description: z.string().optional(),
       canonicalURL: z.string().optional(),
       timezone: z.string().optional(),
+
+      image: image().optional(),
     }),
 });
 

@@ -37,10 +37,12 @@ const poems = await Promise.all(
               </h2>
               <div class="mb-4 flex flex-wrap items-center justify-between gap-3 poem-date">
                 <Datetime pubDatetime={poem.data.pubDatetime} modDatetime={poem.data.modDatetime} size="sm" />
-              </div>
+	      </div>
+	      {/*
               <!-- <div class="mt-4 prose prose-sm max-w-none text-sm text-muted max-h-28 overflow-hidden">
                 <Component />
-              </div> -->
+	      </div> --> 
+	      */}
             </div>
             <div class="mt-6 flex justify-end">
               <button

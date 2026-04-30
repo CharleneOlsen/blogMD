@@ -13,6 +13,7 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
+import getGitModifiedDate from "@/utils/getGitModifiedDate";
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -33,6 +34,9 @@ const {
   tags,
   hideEditPost,
 } = post.data;
+
+const computedModDatetime =
+  modDatetime ?? getGitModifiedDate(post.filePath) ?? null;
 
 const { Content } = await render(post);
 
@@ -60,7 +64,7 @@ const layoutProps = {
   author,
   description,
   pubDatetime,
-  modDatetime,
+  modDatetime: computedModDatetime,
   canonicalURL,
   ogImage,
   scrollSmooth: true,
@@ -96,7 +100,7 @@ const nextPost =
       {title}
     </h1>
     <div class="my-2 flex items-center gap-2">
-      <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
+      <Datetime pubDatetime={pubDatetime} modDatetime={computedModDatetime} timezone={timezone} size="lg" />
       <span
         aria-hidden="true"
         class:list={[
