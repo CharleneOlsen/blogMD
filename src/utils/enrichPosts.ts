@@ -7,13 +7,26 @@ export const enrichPost = async <T extends keyof EntryMap>(
   post: CollectionEntry<T>
 ): Promise<CollectionEntry<T>> => {
   const gitDate = getGitModifiedDate((post as any).filePath);
-  const modDatetime = (post as any).data?.modDatetime ?? gitDate ?? null;
+  const rawModDatetime = (post as any).data?.modDatetime ?? gitDate ?? null;
+
+  function parseDateZeroUTC(value: unknown): Date | null {
+    if (value === null || value === undefined) return null;
+    const d = new Date(value as any);
+    if (Number.isNaN(d.getTime())) return null;
+    d.setUTCHours(0, 0, 0, 0);
+    return d;
+  }
+
+  const parsedDate = parseDateZeroUTC(rawModDatetime);
+  const modDatetime = parsedDate;
+  const modDate = parsedDate ? parsedDate.toISOString().slice(0, 10) : null;
 
   const newPost = {
     ...(post as any),
-    data: {
+      data: {
       ...(post as any).data,
       modDatetime,
+      modDate,
     },
   } as CollectionEntry<T>;
 
