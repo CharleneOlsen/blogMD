@@ -2,25 +2,18 @@ name: CI
 
 permissions:
   contents: read
+  pull-requests: read
 
 on:
   pull_request:
-    types:
-      - opened
-      - edited
-      - synchronize
-      - reopened
+    types: [opened, edited, synchronize, reopened]
   workflow_call:
 
 jobs:
   build:
     name: Code standards & build
-    runs-on: self-hosted
-    timeout-minutes: 3
-
-    strategy:
-      matrix:
-        node-version: [22]
+    runs-on: [self-hosted, linux, ci]
+    timeout-minutes: 15
 
     steps:
       - name: "☁️ Checkout repository"
@@ -31,14 +24,14 @@ jobs:
         with:
           version: 10.11.1
 
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22
           cache: "pnpm"
 
       - name: "📦 Install dependencies"
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: "🔎 Lint code"
         run: pnpm run lint
