@@ -3,7 +3,7 @@ export const SITE = {
   author: "Charlene Olsen",
   profile: "https://charleneolsen.dev/",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Alchemist's journal",
+  title: "Alchemist's notes",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 1000,
@@ -16,7 +16,7 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  listening: "COME CLOSER by TOMORA",
+  listening: "The Garden by Zero 7",
   reading: "RuPaul: In his own words",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"

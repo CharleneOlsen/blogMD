@@ -3,13 +3,14 @@ title: Games and their influence
 author: Charlene Olsen
 pubDatetime: 2026-04-18T14:40:52.737Z
 slug:
-featured: true
+featured: false
 draft: false
 tags:
   - game
   - Life-is-Strange
   - review
-description: My experience with early gaming, watching youtubers, and first gameplay of Life is Strange.
+description: My experience with early gaming, watching YouTubers, and first ever gameplay of Life is Strange.
+modDatetime: 2026-04-21T10:59:05Z
 ---
 *This post is under construction*
 
@@ -29,12 +30,12 @@ Now, as I played it little over a year ago, I can finally make my own decisions 
 
 The game for me didn’t lose that sense of surprise when it comes to the plot twists, you still can mess up horribly without the possibility to rewind back, and it can very quickly change from good to so so bad. What really stood out to me was the vibe, the feeling that this game gave me. The high school setting and paranormal background kept the pace. In some places, the game was warm, when you, for example, visit the school grounds in those first episodes or the dinner with some great tunes (I still listen to the soundtrack, but that's for another post). Later episodes give off the dark, sad and unpleasant feeling due to the topic that are brought up. The game is so vibrant and so diverse in every sense. 
 ## Decisions
-Life is Strange is not really about the people, or the time travel or all that. It’s about the decisions you make as a human being in your life. Because, in the end of the day, you are going to live with your decisions, you are going to remember them. You are responsible for everything you ever said or did, and it makes you who you are. These decisions have shaped you in ways you might never fully understand. 
+Life is Strange is not really about the people, or the time travel or all that. It’s about the decisions you make as a human being in your life. Because, in the end of the day, you are going to live with your decisions and going to remember them. You are responsible for everything you ever said or did, and it makes you who you are. These decisions have shaped you in ways you might never fully understand. 
 
-All the lies, all the ugly truths, they cause nose bleeds to Max, because she used the time travel too much, but they cause us a shift that may not have an immediate physical effect, but has for sure an emotional and mental effect. And I know, I always dreamt of having this power (who didn’t, most of the popular sci-fi tropes are about time travel), but after playing the game, in my ripe age of 22, I understood that I don’t need it. If I stay true to myself at all times, say the ugly truths, keep good, and have reliable people around me, I do tend to choose the ‘correct choices’ for me and my surroundings.
+All the lies we tell ourselves and others, all the ugly truths, they cause nose bleeds to Max in the game, because she used the time travel too much. But in us, they cause a shift that may not have an immediate physical effect, but has for sure an emotional and mental effect. And I know, I always dreamt of having this power (who didn’t, most of the popular sci-fi tropes are about time travel), but after playing the game, in my ripe age of 22, I understood that I don’t need it. If I stay true to myself at all times, say the ugly truths, keep good, and have reliable people around me, I do tend to choose the ‘correct choices’ for me and my surroundings.
 
-I always saw myself as a Max. I was quite shy in (druhý stupeň). It was very hard for me to find my voice in the crowd, in the newly established era of social media. My generation was there when the corporations were building the money grabbers. I was overweight, nobody had ever considered me beautiful, and Max really helped me. I also leaned a lot into photography and the arts in general. It helped me to outlet my emotions somehow. Max was quiet in the beginning of the game, but by the end of the game, she became confident, she found her inner strength. This is best seen in the ending, where she chooses to save Arcadia Bay. She lives through the death of her rediscovered best friend that she had saved. She saved the thousands of people who won’t ever thank her; she did it because she matured. And by the end of the sequence, she smiles. Not because she is happy that Chloe died, but because she accepted it.
+## Final thoughts
+I always saw myself as a Max. I was quite shy in late elementary school. It was very hard for me to find my voice in the crowd, in the newly established era of social media. My generation was there when the corporations were building the money grabbers. I was overweight, nobody had ever considered me beautiful, and Max really helped me. I also leaned a lot into photography and arts in general. It helped me to outlet my emotions somehow. Max was quiet in the beginning of the game, but by the end of the game, she became confident and found her inner strength. This is best seen in the ending, where she chooses to save Arcadia Bay. She lives through the death of her rediscovered best friend that she had previously saved. She saved the thousands of people who won’t ever thank her; she did it because she matured. Likewise, she let the opinions of others to sway her mind. And by the end of the sequence, she smiles. Not because she is happy that Chloe died, but because she accepted it. She accepted that her death is unavoidable. 
 
-I also accepted all the bullying that I had survived. It made me stronger and better. I forgave the people who bullied me, and I forgave myself.
 
 
