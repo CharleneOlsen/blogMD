@@ -1,11 +1,13 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
+import enrichPosts from "@/utils/enrichPosts";
 import { getPath } from "@/utils/getPath";
 import getSortedPosts from "@/utils/getSortedPosts";
 import { SITE } from "@/config";
 
 export async function GET() {
-  const posts = await getCollection("blog");
+  const rawPosts = await getCollection("blog");
+  const posts = await enrichPosts(rawPosts);
   const poems = await getCollection("poetry");
 
   const blogItems = getSortedPosts(posts).map(({ data, id, filePath }) => ({
