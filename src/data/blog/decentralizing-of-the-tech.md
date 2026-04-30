@@ -1,10 +1,10 @@
 ---
 title: Decentralization of the tech
 author: Charlene Olsen
-pubDatetime: 2026-04-29T14:40:52.737Z
+pubDatetime: 2026-04-30T9:40:52.737Z
 slug:
 featured: false
-draft: true
+draft: false
 tags:
   - other
 description: My journey through decentralization of my phone and its content. How it began, what lead me to this decision, and what I did to achieve a little bit of freedom.
