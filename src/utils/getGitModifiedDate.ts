@@ -18,7 +18,7 @@ export function getGitModifiedDate(filePath?: string): Date | null {
       .trim();
 
     if (out) return new Date(out);
-  } catch (e) {
+  } catch {
     // ignore git errors (e.g., not a git repo)
   }
 
@@ -26,7 +26,7 @@ export function getGitModifiedDate(filePath?: string): Date | null {
     const fullPath = path.resolve(process.cwd(), filePath);
     const stats = fs.statSync(fullPath);
     return stats.mtime;
-  } catch (e) {
+  } catch {
     return null;
   }
 }

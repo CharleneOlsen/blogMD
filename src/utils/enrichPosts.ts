@@ -6,12 +6,17 @@ type EntryMap = import("astro:content").DataEntryMap;
 export const enrichPost = async <T extends keyof EntryMap>(
   post: CollectionEntry<T>
 ): Promise<CollectionEntry<T>> => {
-  const gitDate = getGitModifiedDate((post as any).filePath);
-  const rawModDatetime = (post as any).data?.modDatetime ?? gitDate ?? null;
+  type PostLike = { filePath?: string; data?: Record<string, unknown> };
+  const p = post as unknown as PostLike;
+
+  const gitDate = getGitModifiedDate(p.filePath);
+  const rawModDatetime = p.data?.modDatetime ?? gitDate ?? null;
 
   function parseDateZeroUTC(value: unknown): Date | null {
     if (value === null || value === undefined) return null;
-    const d = new Date(value as any);
+    let d: Date;
+    if (value instanceof Date) d = new Date(value.getTime());
+    else d = new Date(String(value));
     if (Number.isNaN(d.getTime())) return null;
     d.setUTCHours(0, 0, 0, 0);
     return d;
@@ -22,9 +27,9 @@ export const enrichPost = async <T extends keyof EntryMap>(
   const modDate = parsedDate ? parsedDate.toISOString().slice(0, 10) : null;
 
   const newPost = {
-    ...(post as any),
-      data: {
-      ...(post as any).data,
+    ...(post as unknown as Record<string, unknown>),
+    data: {
+      ...((post as unknown as { data?: Record<string, unknown> }).data ?? {}),
       modDatetime,
       modDate,
     },
