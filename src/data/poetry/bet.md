@@ -1,7 +1,7 @@
 ---
 title: bet
 author: Charlene Olsen
-pubDatetime: 2026-02-04T20:43:52.737Z
+pubDatetime: 2026-02-04
 slug: bet
 draft: false
 ---

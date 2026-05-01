@@ -1,7 +1,7 @@
 ---
 title: confession
 author: Charlene Olsen
-pubDatetime: 2025-11-06T22:10:52.737Z
+pubDatetime: 2025-11-06
 slug: confession
 draft: false
 ---
