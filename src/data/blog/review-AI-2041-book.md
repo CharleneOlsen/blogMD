@@ -1,7 +1,7 @@
 ---
 title: A small review of a book AI 2041 by Kai-Fu Lee and Chen Qiufan
 author: Charlene Olsen
-pubDatetime: 2026-04-18T14:40:52.737Z
+pubDatetime: 2026-04-18
 slug: review-AI-2041-book
 featured: false
 draft: false
@@ -10,7 +10,6 @@ tags:
   - book
   - review
 description: These are my thoughts about book AI 2041 by Kai-Fu Lee and Chen Qiufan.
-modDatetime: 2026-04-21T10:59:05Z
 ---
 ## My thoughts about the book
 This book looks very positively on the AI and its use in everyday life. I'm not sure if it was intention of the autor, but author doesn't consider the vast, already happening issues connected with everyday use of AI. These issues are such as estranging people from each other, as firm stealing data to teach new models, also the environmental issues with needing so much energy to run all this. There is so many issues but author really talks only about positives on people's lives.

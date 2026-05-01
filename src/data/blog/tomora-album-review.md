@@ -1,7 +1,7 @@
 ---
 title: My little take on TOMORA's recent album
 author: Charlene Olsen
-pubDatetime: 2026-04-18T14:40:52.737Z
+pubDatetime: 2026-04-18
 slug: TOMORA-album-review
 featured: true
 draft: false
