@@ -6,9 +6,8 @@ slug:
 featured: false
 draft: false
 tags:
-  - other
+  - manifesto
 description: My journey through decentralization of my phone and its content. How it began, what lead me to this decision, and what I did to achieve a little bit of freedom.
-modDatetime:
 ---
 *This post is under construction*
 
