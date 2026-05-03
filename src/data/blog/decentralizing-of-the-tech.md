@@ -22,6 +22,8 @@ The second side of this decentralization was detaching myself from the ever-grow
 
 I have spent a ton of time on Reddit for the purpose to find a good mp4 player, good e-book reader, good anything to make my life truly easier and nicer.
 
+## Table of contents
+
 ## E-book reader / writer deck
 We will start from my first purchase an e-book reader. This one is actually tied to the whole [writer deck](https://www.reddit.com/r/writerDeck/) sub-culture/hobby. I felt in love with all these beautiful devices, and I thought to myself, hey, maybe I could have leveraged such deck for my writing needs. It was actually even before I started writing this blog. I explored many options. I mainly wanted some already made options, because I had actually never soldered anything, and I didn't want to invest a lot of time creating a deck, because I have a lot of different hobbies right now :). So, I will now list options and reasons why I didn't choose it.
 
