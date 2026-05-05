@@ -32,9 +32,13 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
   </button>
 </div>
 
-<script is:inline data-astro-rerun>
+<script is:inline>
   /** Scrolls the document to the top when
    * the "Back to Top" button is clicked. */
+  
+  let scrollHandler = null;
+  let clickHandler = null;
+
   function backToTop() {
     const rootElement = document.documentElement;
     const btnContainer = document.querySelector("#btt-btn-container");
@@ -44,11 +48,20 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
     if (!rootElement || !btnContainer || !backToTopBtn || !progressIndicator)
       return;
 
-    // Attach click event handler for back-to-top button
-    backToTopBtn.addEventListener("click", () => {
+    // Clean up old handlers if they exist
+    if (clickHandler) {
+      backToTopBtn.removeEventListener("click", clickHandler);
+    }
+    if (scrollHandler) {
+      document.removeEventListener("scroll", scrollHandler);
+    }
+
+    // Create click handler
+    clickHandler = () => {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-    });
+    };
+    backToTopBtn.addEventListener("click", clickHandler);
 
     // Handle button visibility according to scroll position
     let lastVisible = null;
@@ -73,8 +86,8 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
       }
     }
 
-    let ticking = false;
-    document.addEventListener("scroll", () => {
+    scrollHandler = () => {
+      let ticking = false;
       if (!ticking) {
         window.requestAnimationFrame(() => {
           handleScroll();
@@ -82,7 +95,13 @@ import IconArrowNarrowUp from "@/assets/icons/IconArrowNarrowUp.svg";
         });
         ticking = true;
       }
-    });
+    };
+
+    document.addEventListener("scroll", scrollHandler);
   }
+
   backToTop();
+  
+  // Re-initialize on view transitions
+  document.addEventListener("astro:after-swap", backToTop);
 </script>
