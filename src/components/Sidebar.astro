@@ -94,14 +94,26 @@ const quote = "writing from the city of alchemists,\n using computers to study t
   </div>
 </aside>
 
-<script>
+<script is:inline>
+  let themeToggleHandler = null;
+
   function setupTheme() {
     const themeBtn = document.querySelector("#theme-btn");
-    themeBtn?.addEventListener("click", () => {
+    if (!themeBtn) return;
+
+    // Remove old listener if it exists
+    if (themeToggleHandler) {
+      themeBtn.removeEventListener("click", themeToggleHandler);
+    }
+
+    // Create and store the handler
+    themeToggleHandler = () => {
       const isDark = document.documentElement.getAttribute("data-theme") === "dark";
       document.documentElement.setAttribute("data-theme", isDark ? "light" : "dark");
       localStorage.setItem("theme", isDark ? "light" : "dark");
-    });
+    };
+
+    themeBtn.addEventListener("click", themeToggleHandler);
   }
   setupTheme();
   document.addEventListener("astro:after-swap", setupTheme);

@@ -71,16 +71,29 @@ if (window.theme) {
 // Ensure theme is reflected (in case body wasn't ready when inline script ran)
 reflectPreference();
 
+let themeClickHandler: EventListener | null = null;
+
 function setThemeFeature(): void {
   // set on load so screen readers can get the latest value on the button
   reflectPreference();
 
-  // now this script can find and listen for clicks on the control
-  document.querySelector("#theme-btn")?.addEventListener("click", () => {
+  const themeBtn = document.querySelector("#theme-btn");
+  if (!themeBtn) return;
+
+  // Remove old listener if it exists
+  if (themeClickHandler) {
+    themeBtn.removeEventListener("click", themeClickHandler);
+  }
+
+  // Create and store the handler
+  themeClickHandler = () => {
     themeValue = themeValue === LIGHT ? DARK : LIGHT;
     window.theme?.setTheme(themeValue);
     setPreference();
-  });
+  };
+
+  // Add the new listener
+  themeBtn.addEventListener("click", themeClickHandler);
 }
 
 // Set up theme features after page load
