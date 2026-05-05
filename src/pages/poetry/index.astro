@@ -83,35 +83,67 @@ const poems = await Promise.all(
   </Main>
 
   <script is:inline>
-    const openButtons = document.querySelectorAll("button[data-poem-open]");
-    const overlay = document.getElementById("poem-overlay");
-    const closeButton = document.getElementById("poem-close");
-    const titleElem = document.getElementById("poem-modal-title");
-    const dateElem = document.getElementById("poem-modal-date");
-    const bodyElem = document.getElementById("poem-modal-body");
+    let poemHandlers = [];
+    let closeHandler = null;
+    let overlayHandler = null;
 
-    const setOverlayVisible = (visible) => {
-      if (!overlay) return;
-      overlay.classList.toggle("hidden", !visible);
-      document.body.style.overflow = visible ? "hidden" : "";
-    };
-
-    openButtons.forEach((button) => {
-      button.addEventListener("click", () => {
-        const id = button.dataset.poemOpen;
-        const card = document.querySelector(`article[data-poem-id="${id}"]`);
-        if (!card || !titleElem || !bodyElem) return;
-
-        titleElem.textContent = card.querySelector("h2")?.textContent || "";
-        if (dateElem) dateElem.innerHTML = card.querySelector(".poem-date")?.innerHTML || "";
-        bodyElem.innerHTML = card.querySelector(".poem-html")?.innerHTML ?? "";
-        setOverlayVisible(true);
+    function initPoems() {
+      // Clean up old handlers
+      poemHandlers.forEach(({button, handler}) => {
+        button.removeEventListener("click", handler);
       });
-    });
+      poemHandlers = [];
+      
+      const closeButton = document.getElementById("poem-close");
+      const overlay = document.getElementById("poem-overlay");
+      
+      if (closeHandler && closeButton) {
+        closeButton.removeEventListener("click", closeHandler);
+      }
+      if (overlayHandler && overlay) {
+        overlay.removeEventListener("click", overlayHandler);
+      }
 
-    closeButton?.addEventListener("click", () => setOverlayVisible(false));
-    overlay?.addEventListener("click", (event) => {
-      if (event.target === overlay) setOverlayVisible(false);
-    });
+      // Re-initialize
+      const openButtons = document.querySelectorAll("button[data-poem-open]");
+      const overlayElem = document.getElementById("poem-overlay");
+      const closeButtonElem = document.getElementById("poem-close");
+      const titleElem = document.getElementById("poem-modal-title");
+      const dateElem = document.getElementById("poem-modal-date");
+      const bodyElem = document.getElementById("poem-modal-body");
+
+      const setOverlayVisible = (visible) => {
+        if (!overlayElem) return;
+        overlayElem.classList.toggle("hidden", !visible);
+        document.body.style.overflow = visible ? "hidden" : "";
+      };
+
+      openButtons.forEach((button) => {
+        const handler = () => {
+          const id = button.dataset.poemOpen;
+          const card = document.querySelector(`article[data-poem-id="${id}"]`);
+          if (!card || !titleElem || !bodyElem) return;
+
+          titleElem.textContent = card.querySelector("h2")?.textContent || "";
+          if (dateElem) dateElem.innerHTML = card.querySelector(".poem-date")?.innerHTML || "";
+          bodyElem.innerHTML = card.querySelector(".poem-html")?.innerHTML ?? "";
+          setOverlayVisible(true);
+        };
+        
+        button.addEventListener("click", handler);
+        poemHandlers.push({button, handler});
+      });
+
+      closeHandler = () => setOverlayVisible(false);
+      closeButtonElem?.addEventListener("click", closeHandler);
+
+      overlayHandler = (event) => {
+        if (event.target === overlayElem) setOverlayVisible(false);
+      };
+      overlayElem?.addEventListener("click", overlayHandler);
+    }
+
+    initPoems();
+    document.addEventListener("astro:after-swap", initPoems);
   </script>
 </Layout>

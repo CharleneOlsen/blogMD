@@ -21,17 +21,30 @@ import { SITE } from "@/config";
 
 <script>
   /* Update Search Praam */
-  function updateGoBackUrl() {
-    const backButton: HTMLAnchorElement | null =
-      document.querySelector("#back-button");
+  let updateGoBackUrlHandler: (() => void) | null = null;
 
-    const backUrl = sessionStorage.getItem("backUrl");
+  function setupBackButton() {
+    function updateGoBackUrl() {
+      const backButton: HTMLAnchorElement | null =
+        document.querySelector("#back-button");
 
-    if (backUrl && backButton) {
-      backButton.href = backUrl;
+      const backUrl = sessionStorage.getItem("backUrl");
+
+      if (backUrl && backButton) {
+        backButton.href = backUrl;
+      }
     }
+
+    // Remove old handler if it exists
+    if (updateGoBackUrlHandler) {
+      document.removeEventListener("astro:page-load", updateGoBackUrlHandler);
+    }
+
+    updateGoBackUrlHandler = updateGoBackUrl;
+    document.addEventListener("astro:page-load", updateGoBackUrlHandler);
+    updateGoBackUrl();
   }
 
-  document.addEventListener("astro:page-load", updateGoBackUrl);
-  updateGoBackUrl();
+  setupBackButton();
+  document.addEventListener("astro:after-swap", setupBackButton);
 </script>

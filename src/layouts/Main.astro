@@ -31,12 +31,27 @@ const backUrl = SITE.showBackButton ? Astro.url.pathname : "/";
 </main>
 
 <script>
-  document.addEventListener("astro:page-load", () => {
-    const mainContent: HTMLElement | null =
-      document.querySelector("#main-content");
-    const backUrl = mainContent?.dataset?.backurl;
-    if (backUrl) {
-      sessionStorage.setItem("backUrl", backUrl);
+  let pageLoadHandler: (() => void) | null = null;
+
+  function setupMainContent() {
+    // Remove old handler if it exists
+    if (pageLoadHandler) {
+      document.removeEventListener("astro:page-load", pageLoadHandler);
     }
-  });
+
+    pageLoadHandler = () => {
+      const mainContent: HTMLElement | null =
+        document.querySelector("#main-content");
+      const backUrl = mainContent?.dataset?.backurl;
+      if (backUrl) {
+        sessionStorage.setItem("backUrl", backUrl);
+      }
+    };
+
+    document.addEventListener("astro:page-load", pageLoadHandler);
+    pageLoadHandler(); // Run immediately on first load
+  }
+
+  setupMainContent();
+  document.addEventListener("astro:after-swap", setupMainContent);
 </script>
