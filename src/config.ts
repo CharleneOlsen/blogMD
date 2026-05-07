@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://alchemistsnotes.com/",
   author: "Charlene Olsen",
   profile: "https://charleneolsen.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Alchemist's notes is a blog about the world, art, science and everything in between.",
   title: "Alchemist's notes",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
