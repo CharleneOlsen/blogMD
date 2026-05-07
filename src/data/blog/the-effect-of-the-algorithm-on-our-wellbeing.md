@@ -1,7 +1,7 @@
 ---
 title: The effect of the algorithm on our wellbeing
 author: Charlene Olsen
-pubDatetime: 2026-04-18
+pubDatetime: 2026-05-07
 slug: effect-of-algorithm-on-our-wellbeing
 featured: false
 draft: false
