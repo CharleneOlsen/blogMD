@@ -17,11 +17,11 @@ I know many of you have been where I have been. You lay down, do just relax beca
 
 And so I decided to go on a journey called **Decentralization of the tech**.
 
-What is it? I will tell you. By decentralization, I mean to stop being depended on one device. I just want to stop using that brick for everything in my life. It's same as with Linux, the most effective technology is the one that has one purpose. My phone is my diary, source of enjoyment, streaming videos, movies and series, my mp4 player, my e-book reader, my primary devices for learning and so on. And I don't think that my phone does any of it particularly well, except of calling or texting. And so I have begun this journey with one purpose in mind, to just appoint different devices to do what I need to do.
+What is it? I will tell you. By decentralization, I mean to stop being depended on one device. I just want to stop using that brick for everything in my life. It's same as with Linux, the most effective technology is the one that has one purpose. My phone is my diary, source of enjoyment, streaming videos, movies and series, my audio player, my e-book reader, my primary devices for learning and so on. And I don't think that my phone does any of it particularly well, except of calling or texting. And so I have begun this journey with one purpose in mind, to just appoint different devices to do what I need to do.
 
 The second side of this decentralization was detaching myself from the ever-growing influence of different algorithms. I was an avid user of different streaming platforms like Netflix, Disney +, HBO and so on. And the issue was really how much the cost was growing, and at the end of the day I DON'T OWN SHI. It is so disgusting really. You don't own anything, my generation doesn't own anything. I don't have music, I don't have game, I don't have movies and series. I'm literally left with nothing if I don't pay every month for the service to provide me with it. So, I decided to own things. 
 
-I have spent a ton of time on Reddit for the purpose to find a good mp4 player, good e-book reader, good anything to make my life truly easier and nicer.
+I have spent a ton of time on Reddit for the purpose to find a good audio player, good e-book reader, good anything to make my life truly easier and nicer.
 
 ## Table of contents
 
@@ -52,8 +52,15 @@ And omg, this device had helped me a lot. I use it to write drafts for this blog
 
 I started to use my smartphone less, so this part of my journey is finished I will eventually buy some of the afore mentioned devices, but for now, my heart is very content. 
 
-## MP4 player
-Next stop, on my journey, was solving the issue with YouTube Music algorithm. 
+## Audio player (and earphones)
+Next stop, on my journey, was solving the issue with YouTube Music algorithm. I recently wrote a post about the effects of the algorithm on our wellbeing (check it out [here](https://alchemistsnotes.com/posts/effect-of-algorithm-on-our-wellbeing/)), and when I was writing it I thought that the situation is very similar to music algorithms. By that I mean, when you hit the music on your "For you" page you are sent to a shuffle of music you like with music that algorithm deemed you might like. But if you actually look at that curated playlist, it is most likely not coherent. The music does not match in genre, vibes or anything. And yes, I know, there is a special shuffle that make you a curated playlist based on a genre or artists, but let's be honest, it's far from great. My algorithm does not understand that if I listen to Daughter that I am so sad that I don't want to hear Lorde even though I love her. And that's what I mean, these playlists are a mix of music that together doesn't make sense, and so each new song is different in emotional response, and thus you are again on emotional roller-coast.
+
+My way of solving this was to download all the music I love, and oh boy it is a lot of GB of data, but worth it. I also bought myself a audio player and placed it all there. But if you are going to embark on this journey, you really don't need to buy yourself an expansive player, use your phone as one, if you of course are not looking for the best possible music quality the market has to offer.
+
+### What I landed on?
+But I am and audiophile, so I had to buy myself a player. And not just any audio player, but a hi-fi audio player. After a minimal research, at night, I did an impulse buy and bought myself **FiiO M21**. Later, after some actual research I actually found out that it is a very good audio player. 
+
+
 
 
 

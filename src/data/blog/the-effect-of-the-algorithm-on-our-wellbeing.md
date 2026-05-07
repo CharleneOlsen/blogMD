@@ -9,7 +9,7 @@ tags:
   - music
   - technology
   - algorithm
-description: How does the algorithm affects our feelings during doom-scrolling and music shuffling.
+description: How does the algorithm affects our feelings during doom-scrolling.
 ---
 I have recently seen one YouTube video (link is [here](https://youtu.be/d43tivfx0qw)) about doom-scrolling. There is of course a lot of content about this topic, and so I'm not going to write about it's effect on the brain, psyche and soul. Maybe some time later. But today I would like to talk briefly, of maybe not, about my thoughts on the particular points raised in the video. 
 
