@@ -27,7 +27,11 @@ const {
 //const isModified = modDatetime && modDatetime > pubDatetime;
 
 const pubDt = dayjs(pubDatetime).tz(postTimezone || SITE.timezone);
-const modDt = modDatetime ? dayjs(modDatetime).tz(postTimezone || SITE.timezone) : null;
+const modDt = modDatetime
+  ? dayjs(modDatetime).tz(postTimezone || SITE.timezone)
+  : null;
+
+const isModified = modDt && modDt.isAfter(pubDt);
 
 const pubDate = pubDt.format("D.MM.YYYY");
 const modDate = modDt?.format("D.MM.YYYY");
@@ -41,7 +45,7 @@ const modDate = modDt?.format("D.MM.YYYY");
     class:list={["text-sm", { "sm:text-base": size === "lg" }]}
     datetime={pubDt.toISOString()}>{pubDate}</time
   >
-  {modDate && (
+  {isModified && (
     <>
       <span aria-hidden="true" class="text-muted">|</span>
       <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
