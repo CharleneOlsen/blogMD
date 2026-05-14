@@ -16,8 +16,8 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  listening: "The Garden by Zero 7",
-  reading: "RuPaul: In his own words",
+  listening: "Cleopatra by The Lumineers",
+  reading: "Show Your Work! by Austin Kleon",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
