@@ -10,12 +10,6 @@ tags:
   - academics
 description: My journey of becoming a Chemical engineer.
 ---
-It is easy to write a Chemical reaction, all these fancy numbers and elements, but it is much harder to think of how to recreate such reaction in the lab, let alone in big production scale.
-
-Every reaction is different, every production is different.
-
-This is actually where mostly all innovation die. It all due to the scalability of the process. If you can't figure out the to scale your production, your product is not viable and will likely not survive.
-
 
 --
 I'm currently a student in a University of Chemistry and Technology in Prague studying Chemical engineering and bioengineering. I am in my first year of getting a Masters diploma or a title of an Engineer. 

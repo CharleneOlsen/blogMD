@@ -7,7 +7,7 @@ featured: false
 draft: true
 tags:
   - chemical-engineering
-description:
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
 ---
 One equation that is the backbone of the chemical engineering as a whole.
 

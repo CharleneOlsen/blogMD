@@ -7,7 +7,7 @@ featured: false
 draft: true
 tags:
   - other
-description:
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
 ---
 
 I was recently inspired by this [blog post](https://mnemonics.neocities.org/#originsofalchemy) made by Mnemonics. In this post they talk about how great philosophers of Ancient Greece were among first who proposed the theoretical background of the alchemical theory of matter. This beautiful summary gave me an idea to dive deeper into the origins of ALCHEMY. 
