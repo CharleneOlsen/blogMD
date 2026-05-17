@@ -14,11 +14,11 @@ const rawPosts = await getCollection("blog");
 const posts = await enrichPosts(rawPosts);
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ id, data }) => 
-  FEATURED_POSTS.includes(data.slug || id.replace(/\.md$/, ""))
+const featuredPosts = sortedPosts.filter(({ id }) =>
+  FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
 );
-const recentPosts = sortedPosts.filter(({ id, data }) => 
-  !FEATURED_POSTS.includes(data.slug || id.replace(/\.md$/, ""))
+const recentPosts = sortedPosts.filter(({ id }) =>
+  !FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
 );
 ---
 
