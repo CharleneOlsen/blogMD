@@ -8,18 +8,13 @@ import Card from "@/components/Card.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
-import { FEATURED_POSTS } from "@/data/featured";
 
 const rawPosts = await getCollection("blog");
 const posts = await enrichPosts(rawPosts);
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ id }) =>
-  FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
-);
-const recentPosts = sortedPosts.filter(({ id }) =>
-  !FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
-);
+const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 ---
 
 <Layout>
