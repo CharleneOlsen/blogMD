@@ -3,7 +3,7 @@ title: Why I am an atheist?
 author: Charlene Olsen
 pubDatetime: 2026-06-02
 slug:
-draft: true
+draft: false
 tags:
   - religion
   - blog
