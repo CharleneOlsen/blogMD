@@ -3,12 +3,12 @@ title: Decentralization of the tech
 author: Charlene Olsen
 pubDatetime: 2026-04-30
 slug:
-featured: false
 draft: false
 tags:
   - manifesto
   - technology
   - algorithm
+  - writer-deck
 description: My journey through decentralization of my phone and its content. How it began, what lead me to this decision, and what I did to achieve a little bit of freedom.
 ---
 *This post is under construction*
@@ -55,11 +55,19 @@ I started to use my smartphone less, so this part of my journey is finished I wi
 ## Audio player (and earphones)
 Next stop, on my journey, was solving the issue with YouTube Music algorithm. I recently wrote a post about the effects of the algorithm on our wellbeing (check it out [here](https://alchemistsnotes.com/posts/effect-of-algorithm-on-our-wellbeing/)), and when I was writing it I thought that the situation is very similar to music algorithms. By that I mean, when you hit the music on your "For you" page you are sent to a shuffle of music you like with music that algorithm deemed you might like. But if you actually look at that curated playlist, it is most likely not coherent. The music does not match in genre, vibes or anything. And yes, I know, there is a special shuffle that make you a curated playlist based on a genre or artists, but let's be honest, it's far from great. My algorithm does not understand that if I listen to Daughter that I am so sad that I don't want to hear Lorde even though I love her. And that's what I mean, these playlists are a mix of music that together doesn't make sense, and so each new song is different in emotional response, and thus you are again on emotional roller-coast.
 
-My way of solving this was to download all the music I love, and oh boy it is a lot of GB of data, but worth it. I also bought myself a audio player and placed it all there. But if you are going to embark on this journey, you really don't need to buy yourself an expansive player, use your phone as one, if you of course are not looking for the best possible music quality the market has to offer.
+My way of solving this was to download all the music I love, and oh boy it is a lot of GB of data, but worth it. I also bought myself an audio player and placed it all there. But if you are going to embark on this journey, you really don't need to buy yourself an expansive player, use your phone as one, if you of course are not looking for the best possible music quality the market has to offer.
 
 ### What I landed on?
-But I am and audiophile, so I had to buy myself a player. And not just any audio player, but a hi-fi audio player. After a minimal research, at night, I did an impulse buy and bought myself **FiiO M21**. Later, after some actual research I actually found out that it is a very good audio player. 
+But I am and audiophile, so I had to buy myself a proper player. And not just any audio player, but a Hi-Fi audio player. After a minimal research, at night, I did an impulse buy and bought myself **FiiO M21**. Later, after some actual research I actually found out that it is a very good audio player. 
 
+Additionally, I had also bought myself proper set of earphones with the help of (again) [subreddit](https://www.reddit.com/r/iems/) for **in ear monitors**. For that I cannot recommend one pair, because the market is very vast and such earphones all have their distinct sound that some people would prefer more above any others. But for me, I bought myself **Dunu KIMA 2**, and I'm more than satisfied. It is perfect due to their neutral signature sound which I had player with equalizers to fit my taste.
+
+## Conclusion + update
+This whole post may sound like a buying spree, which it kinda was, but truth to be said, I do feel it made my life nicer which I think is a main goal. 
+
+I had written this post about two months ago, so many devices mentioned here had been at my mercy for that period of time. And I feel that it is an appropriate time to write some small review for each and maybe showcase my workflow with them. 
+
+My music 
 
 
 

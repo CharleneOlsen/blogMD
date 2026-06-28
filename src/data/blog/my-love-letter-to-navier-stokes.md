@@ -14,7 +14,10 @@ Have ever wondered why ocean flows the way it does? Have you ever thought about 
 In this post I would like to introduce the idea behind Navier-Stokes equation. Some history, and how it was derived, so yes, there is going to be math. But worry not, dear student, I will try to explain everything, and hopefully you will fall in love with this equation the same as I did when I first found it.
 
 ## The beginning
-Before I show you how it looks, let me introduce to you the main cast of today's show. Navier and Stokes. 
+Before I show you how it looks, let me introduce to you the main cast of today's show. Navier and Stokes, the authors of the equation.
+
+### Claude-Louis Navier
+
 
 
 ## Navier-Stokes equation

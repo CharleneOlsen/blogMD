@@ -3,7 +3,6 @@ title: My little take on TOMORA's recent album
 author: Charlene Olsen
 pubDatetime: 2026-04-18
 slug: TOMORA-album-review
-featured: true
 draft: false
 tags:
   - music
@@ -15,7 +14,7 @@ description: Some of my thoughts on TOMORA's new album COME CLOSER.
 ---
 I’ve been listening to AURORA since I was a child. I discovered her in elementary school, where one of my friend at the time presented her as her favourite artist. I actually didn’t listen to her then, but started maybe two years later. And when I discovered her on my own terms, it was a truly deep connection.
 
-For me, AURORA will have a special place in my heart. She helped me tremendously with my depression and with the transition stage of becoming the woman I am today. She inspired my write hair, and she did incentivise me to experiment with my hair, leading to the pixie hairstyle that I am well known for. Furthermore, she showed me that I can dress funky, that I can experiment with myself, and to live to the fullest. I will be forever thankful to her for that.
+For me, AURORA will have a special place in my heart. She helped me tremendously with my depression and with the transition stage of becoming the woman I am today. She inspired my write hair, and she did inspire me to experiment with my hair, leading to the pixie hairstyle that I am well known for. Furthermore, she showed me that I can dress funky, that I can experiment with myself, and to live to the fullest. I will be forever thankful to her for that.
 
 But about the album. I already loved her early collaboration with The Chemical Brothers, so I wasn’t as shocked about the formation of the group. It is natural for artist to want to create time to time something outside their genre, just to have fun and experiment. This is what AURORA was always about. And also, let’s be honest, her last album **What Happened To The Heart?.** It was already very electronic compared to her previous albums, which were softer. 
 

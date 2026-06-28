@@ -3,7 +3,6 @@ title: Games and their influence
 author: Charlene Olsen
 pubDatetime: 2026-04-18
 slug:
-featured: false
 draft: false
 tags:
   - game
@@ -13,15 +12,15 @@ description: My experience with early gaming, watching YouTubers, and first ever
 ---
 Have you ever had a game that had quite literally changed the course of your life? Or maybe a game that helped you get perspective on a difficult decision in your life? Or maybe a game that helped you realise something that just stuck with you forever?
 
-I have a few of such games that just changed me, my perspective, gave me reasons to survive another day or just made me a better person in general. When I was growing up, my family didn’t have enough money to buy me any games, and my computer was **bad**, to say the least. But I had some comforting YouTube channels that took me for a ride with their gameplay. And even though I may not have played the game, I can tell you with all my heart that I have lived through every decision these games have to offer.
+I have a few of such games that just changed me, my perspective, gave me reasons to survive another day or just made me a better person in general. When I was growing up, my family didn’t have enough money to buy me any games, and my computer was **bad**, to say the least. But I had some comforting YouTube channels that took me for a ride with their game play. And even though I may not have played the game, I can tell you with all my heart that I have lived through every decision these games have to offer.
 
-I had two such games. First, on which I will place my sole focus today, is the game **Life is Strange**. Oh boy, this game, has stood the challenge of the years for me. I think it is highly relevant today, and the overall gameplay still feels fresh.
+I had two such games. First, on which I will place my sole focus today, is the game **Life is Strange**. Oh boy, this game, has stood the challenge of the years for me. I think it is highly relevant today, and the overall game play still feels fresh.
 
 !!SPOILERS AHEAD FOR LIFE IS STRANGE!!
 
 ## Table of contents
 ## A quick story recap
-The game is about a girl who, due to the traumatic events, develops a superpower, time rewind. And the whole gameplay revolves around her having this power and how she solves problems in her life. This is a horrible simplification of the game’s story, but it will suffice for now.
+The game is about a girl who, due to the traumatic events, develops a superpower, time rewind. And the whole game play revolves around her having this power and how she solves problems in her life. This is a horrible simplification of the game’s story, but it will suffice for now.
 ## Seeing the game through another set of eyes
 As I mentioned earlier, my first experience with this title was through the gaming channel [@EugeneSagaz](https://www.youtube.com/@eugenesagaz). I watched his videos when I was around 12 years old, and what I very much liked about him was his calming presence. He always discussed his decisions, and even though I may have disagreed with some, I always liked to see the game through his eyes. He read every text, he literally took your hand and carried through the game as you were his best friend. I didn't know much English back then, but he always explained any underlying meaning of what characters were saying. He was, and still is, a very charming person. 
 

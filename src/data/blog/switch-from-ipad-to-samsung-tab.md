@@ -8,6 +8,4 @@ tags:
   - other
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est
 ---
-
-## header
-
+In the beggining of the new semester I have decided to make my last switch from all Apple devices to android. Earlier in 2025 I had sold my Macbook and bought myself a 
