@@ -3,7 +3,6 @@ title: Love letter to Navier-Stokes equations
 author: Charlene Olsen
 pubDatetime: 2026-04-18
 slug:
-featured: false
 draft: true
 tags:
   - chemical-engineering

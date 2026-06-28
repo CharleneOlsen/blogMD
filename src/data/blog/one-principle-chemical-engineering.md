@@ -3,7 +3,6 @@ title: One principe that rules the Chemical engineering
 author: Charlene Olsen
 pubDatetime: 2026-04-18
 slug:
-featured: false
 draft: true
 tags:
   - chemical-engineering

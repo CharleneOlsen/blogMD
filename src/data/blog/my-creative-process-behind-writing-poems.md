@@ -3,7 +3,6 @@ title: My creative process behind writing poems
 author: Charlene Olsen
 pubDatetime: 2026-04-18
 slug:
-featured: false
 draft: true
 tags:
   - art

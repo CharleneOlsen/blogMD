@@ -3,7 +3,6 @@ title: Philosophers were the first alchemists
 author: Charlene Olsen
 pubDatetime: 2026-05-08
 slug:
-featured: false
 draft: true
 tags:
   - other
