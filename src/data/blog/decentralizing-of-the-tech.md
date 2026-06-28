@@ -11,8 +11,6 @@ tags:
   - writer-deck
 description: My journey through decentralization of my phone and its content. How it began, what lead me to this decision, and what I did to achieve a little bit of freedom.
 ---
-*This post is under construction*
-
 I know many of you have been where I have been. You lay down, do just relax because you have a spare 30 minutes in your very busy life. And what is your first instincts? To grab that brick with black mirror (yes, Black Mirror series mentioned). I do that constantly, unfortunately. I’m from generation Z, so I have grown up pretty much my whole life with this lifeless brick, and I grew to hate it. We have been fed, how amazing this technology is, but in reality, I think it mostly imprisoned my mind. It killed my drive and my creativity largely. I’m sure I’m not the only one. 
 
 And so I decided to go on a journey called **Decentralization of the tech**.
@@ -36,38 +34,52 @@ So, first is [BYOK](https://byok.io/), which stands for "Bring Your Own Keyboard
 So, why not BYOK? To be frank, while researching I came across a different approach to a writing deck, that I found better for myself, but one day I will actually buy it for myself. 
 
 ### Zero Writer
-Then there is this bad boy. I love this device, here you can find it on [Crowdsupply](https://www.crowdsupply.com/zerowriter/zerowriter-ink) and this is a [website](https://zerowriter.ink/). I love how it is made as there older writer decks with small screen, but not as small, and hot swappable keyboard. So you are also free to customize your own switches and key caps. I think it is a great device, and I'm also very stocked about the creation of The Zerowriter company. 
+Then there is this bad boy. I love this device, here you can find it on [Crowdsupply](https://www.crowdsupply.com/zerowriter/zerowriter-ink) and this is a [website](https://zerowriter.ink/). I love how it is made as there older writer decks with small screen, but not as small, and hot swappable keyboard. So you are also free to customise your own switches and key caps. I think it is a great device, and I'm also very stocked about the creation of The Zerowriter company. 
 
 At some point, I was considering to pledge and buying this product, because people are very satisfied with it, but it didn't really match my need for transportability. So, at the end I chose not to buy it right now.
 
 ### Writer decks by Un Kyu Lee
 Whilst doing my research I have come into contact with decks made by Un Kyu Lee (this is his timeline on [Reddit](https://www.reddit.com/r/unkyulee/)). They have their own little shop on [Tindie](https://www.tindie.com/stores/unkyulee/), where you can find different writer decks. They also have their GitHub, so you can build them at home. 
 
-So I was browsing their creations, and I found this project called [The PDA Terminal](https://github.com/unkyulee/phone-enclosure). Through this project I found a combo: small keyboard and e-book reader, here it is a Boox Palma 2. I have bought myself the CACOE keyboard and I use it daily really. 
+So I was browsing their creations, and I found this project called [The PDA Terminal](https://github.com/unkyulee/phone-enclosure). Through this project I found a combo: small keyboard and e-book reader, here it is a Boox Palma 2 Pro. I have bought myself the CACOE keyboard and I use it daily really. 
 
 Here, we are getting to the finish line of my search. I had researched more about the Boox Palma, and I found this little device quite intriguing. I had never seen such small e-book reader that can also be used as an everyday smartphone. And so, I have bought myself a bit newer version of this series, **Boox Palma 2 Pro**.
 
 ### What I landed on?
-And omg, this device had helped me a lot. I use it to write drafts for this blog (so prepare yourself for more reading in the future). I also started to read my huge backlog of research papers. I just actually shifted all my learning to this device. You can carry it anywhere (because it is a literally a smartphone), it is fast, so writing on it with the CACOE keyboard feel amazing. I'm overall very happy with it and I think, that just moving all my learning to a free of distraction device was a huge step for my wellbeing. 
+And oh my goodness, this device had helped me a lot. I use it to write drafts for this blog (so prepare yourself for more reading in the future). I also started to read my huge backlog of research papers. I just actually shifted all my learning to this device. You can carry it anywhere (because it is a literally a smartphone), it is fast, so writing on it with the CACOE keyboard feel amazing. I'm overall very happy with it and I think, that just moving all my learning to a free of distraction device was a huge step for my well-being. 
 
 I started to use my smartphone less, so this part of my journey is finished I will eventually buy some of the afore mentioned devices, but for now, my heart is very content. 
 
 ## Audio player (and earphones)
-Next stop, on my journey, was solving the issue with YouTube Music algorithm. I recently wrote a post about the effects of the algorithm on our wellbeing (check it out [here](https://alchemistsnotes.com/posts/effect-of-algorithm-on-our-wellbeing/)), and when I was writing it I thought that the situation is very similar to music algorithms. By that I mean, when you hit the music on your "For you" page you are sent to a shuffle of music you like with music that algorithm deemed you might like. But if you actually look at that curated playlist, it is most likely not coherent. The music does not match in genre, vibes or anything. And yes, I know, there is a special shuffle that make you a curated playlist based on a genre or artists, but let's be honest, it's far from great. My algorithm does not understand that if I listen to Daughter that I am so sad that I don't want to hear Lorde even though I love her. And that's what I mean, these playlists are a mix of music that together doesn't make sense, and so each new song is different in emotional response, and thus you are again on emotional roller-coast.
+Next stop, on my journey, was solving the issue with YouTube Music algorithm. I recently wrote a post about the effects of the algorithm on our well-being (check it out [here](https://alchemistsnotes.com/posts/effect-of-algorithm-on-our-wellbeing/)), and when I was writing it I thought that the situation is very similar to music algorithms. By that I mean, when you hit the music on your "For you" page you are sent to a shuffle of music you like with music that algorithm deemed you might like. But if you actually look at that curated playlist, it is most likely not coherent. The music does not match in genre, vibes or anything. And yes, I know, there is a special shuffle that make you a curated playlist based on a genre or artists, but let's be honest, it's far from great. My algorithm does not understand that if I listen to Daughter that I am so sad that I don't want to hear Lorde even though I love her. And that's what I mean, these playlists are a mix of music that together doesn't make sense, and so each new song is different in emotional response, and thus you are again on emotional roller-coast.
 
 My way of solving this was to download all the music I love, and oh boy it is a lot of GB of data, but worth it. I also bought myself an audio player and placed it all there. But if you are going to embark on this journey, you really don't need to buy yourself an expansive player, use your phone as one, if you of course are not looking for the best possible music quality the market has to offer.
 
 ### What I landed on?
-But I am and audiophile, so I had to buy myself a proper player. And not just any audio player, but a Hi-Fi audio player. After a minimal research, at night, I did an impulse buy and bought myself **FiiO M21**. Later, after some actual research I actually found out that it is a very good audio player. 
+But I am and audiophile, so I had to buy myself a proper player. And not just any audio player, but a Hi-Fi audio player. After a minimal research at night, I did an impulse buy and bought myself **FiiO M21**. Later, after some actual research I actually found out that it is a very good audio player. 
 
-Additionally, I had also bought myself proper set of earphones with the help of (again) [subreddit](https://www.reddit.com/r/iems/) for **in ear monitors**. For that I cannot recommend one pair, because the market is very vast and such earphones all have their distinct sound that some people would prefer more above any others. But for me, I bought myself **Dunu KIMA 2**, and I'm more than satisfied. It is perfect due to their neutral signature sound which I had player with equalizers to fit my taste.
+Additionally, I had also bought myself proper set of earphones with the help of (again) [subreddit](https://www.reddit.com/r/iems/) for **in-ear monitors**. For that I cannot recommend one pair, because the market is very vast and such earphones all have their distinct sound that some people would prefer more above any others. But for me, I bought myself **Dunu KIMA 2**, and I'm more than satisfied. It is perfect due to their neutral signature sound which I had player with equalisers to fit my taste.
 
 ## Conclusion + update
-This whole post may sound like a buying spree, which it kinda was, but truth to be said, I do feel it made my life nicer which I think is a main goal. 
+This whole post may sound like a buying spree, which it kinda was. But truth to be said, I do feel it made my life nicer which is and always will be the main goal. 
 
-I had written this post about two months ago, so many devices mentioned here had been at my mercy for that period of time. And I feel that it is an appropriate time to write some small review for each and maybe showcase my workflow with them. 
+I had written this post about three months ago, so many devices mentioned here had been at my mercy for that period of time. And I feel that it is an appropriate time to write some small review for each and maybe showcase my workflow with them. 
 
-My music 
+### Do I read more?
+In fact, yes I do. I use my Boox Palma 2 Pro almost every day. In came in clutch really during exam week, because I could just put all my learning there and keep my "normal" phone for other things. So I used the e-reader for learning and reading without any distractions and I achieved better grades (though that might be due to separate reasons). 
+
+Now after the stress from exams has worn out I use it to read. And read I do. I travel a lot in public transport and instead of taking out my phone I take out this cute device and just read or research.
+
+This fact is also present in the audio player.
+
+### How is the sound?
+Sound is so so SO good. I remember I had just taken them out, figured everything out and played some music into my ears. At first, sound was okayish I was briefly disappointed. But later in the day, I wore my earbuds and just then I understood how huge of an improvement in quality these in-ear monitors and by extension audio player was. 
+
+### Isn't it too much?
+One of my friends asked me, why do I need all this stuff? Truth to be told, I don't. Nobody *really* needs all this. It is surely an overkill. But it's my overkill and I love it. Because I have very addictive personality, my brain sometimes behaves as thought its five years old. I just want to be on my phone all day because it's easier. 
+
+Which all these gadgets I do use my phone much less. I use phone now to chat and to play stupid games on LinkedIn. I'm only a human. 
+
 
 
 
