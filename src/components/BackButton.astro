@@ -25,13 +25,28 @@ import { SITE } from "@/config";
 
   function setupBackButton() {
     function updateGoBackUrl() {
-      const backButton: HTMLAnchorElement | null =
-        document.querySelector("#back-button");
+      const backButton: HTMLAnchorElement | null = document.querySelector("#back-button");
+      if (!backButton) return;
 
-      const backUrl = sessionStorage.getItem("backUrl");
+      try {
+        const pathname = window.location.pathname || "/";
+        // Normalize: remove trailing slash except for root
+        const clean = pathname.endsWith("/") && pathname !== "/" ? pathname.slice(0, -1) : pathname;
+        const parts = clean.split("/");
 
-      if (backUrl && backButton) {
-        backButton.href = backUrl;
+        // If there is no parent segment, go to root
+        if (parts.length <= 1) {
+          backButton.href = "/";
+          return;
+        }
+
+        // Remove the last segment to go up one level
+        parts.pop();
+        const parent = parts.join("/") || "/";
+        backButton.href = parent.endsWith("/") ? parent : parent + "/";
+      } catch (e) {
+        const backUrl = sessionStorage.getItem("backUrl");
+        backButton.href = backUrl || "/";
       }
     }
 

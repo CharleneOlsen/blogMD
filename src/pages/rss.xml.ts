@@ -20,7 +20,7 @@ export async function GET() {
   const poetryItems = poems.map(({ data, id }) => {
     const slug = data.slug ?? id.replace(/\.md$/, "");
     return {
-      link: `/poetry/${slug}`,
+      link: `/posts/scriptorium/poetry/${slug}`,
       title: data.title,
       description: data.description ?? "",
       pubDate: new Date(data.modDatetime ?? data.pubDatetime),
