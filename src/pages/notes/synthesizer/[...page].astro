@@ -26,7 +26,7 @@ const { page } = Astro.props;
 <Layout title={`Synthesizer | ${SITE.title}`}>
   <Main
     pageTitle="the synthesizer"
-    pageDesc="The synthesizer room filled with reviews."
+    pageDesc="The synthesizer is a place to observe the world around and the inner self."
   >
     <ul>
       {page.data.map(data => <Card {...data} />)}
