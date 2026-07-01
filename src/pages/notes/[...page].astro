@@ -22,7 +22,7 @@ const { page } = Astro.props;
 
 <Layout title={`Posts | ${SITE.title}`}>
   <!-- <Header /> -->
-  <Main pageTitle="all notes" pageDesc="A complete chronological logbook of all experiments, observations, and artistic synthesis.">
+  <Main pageTitle="all notes" pageDesc="A complete chronological logbook of all my works, thoughts and ideas.">
     <ul>
       {page.data.map(data => <Card {...data} />)}
     </ul>
