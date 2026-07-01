@@ -3,7 +3,7 @@ import { glob } from "astro/loaders";
 import { SITE } from "@/config";
 
 export const BLOG_PATH = "src/data/blog";
-export const POETRY_PATH = "src/data/poetry";
+export const POETRY_PATH = "src/data/scriptorium/poetry";
 
 const blog = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: `./${BLOG_PATH}` }),
