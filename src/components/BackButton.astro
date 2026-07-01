@@ -44,7 +44,7 @@ import { SITE } from "@/config";
         parts.pop();
         const parent = parts.join("/") || "/";
         backButton.href = parent.endsWith("/") ? parent : parent + "/";
-      } catch (e) {
+      } catch {
         const backUrl = sessionStorage.getItem("backUrl");
         backButton.href = backUrl || "/";
       }

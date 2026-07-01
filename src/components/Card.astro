@@ -21,7 +21,7 @@ const roomName = (() => {
   try {
     const segments = filePath.replace(BLOG_PATH, "").split("/").filter(Boolean);
     return segments.length > 0 ? segments[0] : "";
-  } catch (e) {
+  } catch {
     return "";
   }
 })();
