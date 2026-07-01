@@ -14,27 +14,24 @@ const rawPosts = await getCollection("blog");
 const posts = await enrichPosts(rawPosts);
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ id }) =>
-  FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
-);
-const recentPosts = sortedPosts.filter(({ id }) =>
-  !FEATURED_POSTS.some(slug => slug.toLowerCase() === id.toLowerCase())
-);
+const featuredPosts = sortedPosts.filter(({ id }) => {
+  const slug = id.split("/").pop()?.toLowerCase();
+  return FEATURED_POSTS.some(featured => featured.toLowerCase() === slug);
+});
+const recentPosts = sortedPosts.filter(({ id }) => {
+  const slug = id.split("/").pop()?.toLowerCase();
+  return !FEATURED_POSTS.some(featured => featured.toLowerCase() === slug);
+});
 ---
 
 <Layout>
   <!-- <Header /> -->
   <main id="main-content" data-layout="index" class="app-layout">
-    <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <!-- <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Howdy
-      </h1> -->
-
-      <!-- <p> -->
+    <section id="hero" class:list={["pt-12 pb-6", "border-b border-border"]}>
       <p>Hi there, </p>
       <p>my name is <strong style="color: #0FFFF3;">Charli</strong>, it is so nice to meet you.</p>
-      <p>Welcome to my digital garden. I am a polymath studying chemical engineering and my mind is always split between science and art. I am a curious soul, self-learning different topics that I lay my eyes on. In my free time, I write poems and short stories and paint ornaments.</p>
-      <p>Feel free to roam the lab - my little cabinet of curiosities. </p>
+      <p class="mt-2">Welcome to my <strong style="color: #FF370F;">digital garden</strong>. I am a polymath studying chemical engineering and my mind is always split between science and art. I am a curious soul, self-learning different topics that I lay my eyes on. In my free time, I write poems and short stories and paint ornaments.</p>
+      <p class="mt-2">Feel free to roam the lab - my little <strong style="color: #FF370F;">cabinet of curiosities</strong>. </p>
       <!-- </p> -->
       <p class="mt-2">
       </p>
@@ -45,6 +42,23 @@ const recentPosts = sortedPosts.filter(({ id }) =>
           </div>
         )
       } -->
+    </section>
+
+    <section id="lab-map" class:list={["pt-12 pb-6", "border-b border-border"]}>
+      <h2 class="text-2xl font-semibold tracking-wide">map of the lab</h2>
+      <div class="mt-6">
+        <p> These notes are filled with research and finding mixed with my personal notes, ideas and remarks. </p>
+        <p> It is a synthesis of art and science, good and evil, light and dark, but here the opposites are one.</p>
+
+        <h3 class="text-xl font-semibold mt-4"><LinkButton href="/notes/reactor/" class="text-accent hover:underline">the reactor<IconArrowRight class="inline-block rtl:-rotate-180" /></LinkButton></h3>
+        <p> The reactor brews a mixture of science, technical notes, and my journey of becoming a chemical engineer with research I am conducting.</p>
+        <h3 class="text-xl font-semibold mt-4"><LinkButton href="/notes/synthesizer/" class="text-accent hover:underline">the synthesizer<IconArrowRight class="inline-block rtl:-rotate-180" /></LinkButton></h3>
+        <p> Deconstruction is a process of breaking down complex ideas into simpler components, from which new ideas can be created. </p>
+        <h3 class="text-xl font-semibold mt-4"><LinkButton href="/notes/observatory/" class="text-accent hover:underline">the observatory<IconArrowRight class="inline-block rtl:-rotate-180" /></LinkButton></h3>
+        <p> The observatory is a place where I observe and reflect on the world around me. Here you can find reviews on various media ranging from books, movies to games and music.</p>
+        <!-- <h3 class="text-xl font-semibold mt-4"><LinkButton href="/notes/scriptorium/" class="text-accent hover:underline">the scriptorium</LinkButton></h3> -->
+        <!-- <p> The scriptorium is filled with my artistic adventures.</p> -->
+      </div>
     </section>
 
     {
@@ -69,7 +83,7 @@ const recentPosts = sortedPosts.filter(({ id }) =>
     {
       recentPosts.length > 0 && (
         <section id="recent-posts" class="pt-12 pb-6">
-          <h2 class="text-2xl font-semibold tracking-wide">recent posts</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">recent notes</h2>
           <ul>
             {recentPosts.map(
               (data, index) =>
@@ -81,8 +95,8 @@ const recentPosts = sortedPosts.filter(({ id }) =>
     }
 
     <div class="my-8 text-center">
-      <LinkButton href="/posts/">
-        all posts
+      <LinkButton href="/notes/">
+        all notes
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
     </div>

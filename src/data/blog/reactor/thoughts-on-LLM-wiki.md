@@ -20,7 +20,7 @@ On paper, it sounds amazing. I just upload the data, which as a scientist I have
 Well, I have built one on my computer using [this guide](https://youtu.be/QbjAQFJJyt0). But then, what of it? I can feed it more data, but I found it very useless in this state and let me explain why.
 
 ## My issue with Karpathy's idea
->"You never (or rarely) write the wiki yourself — the LLM writes and maintains all of it. You're in charge of sourcing, exploration, and asking the right questions. The LLM does all the grunt work — the summarizing, cross-referencing, filing, and bookkeeping that makes a knowledge base actually useful over time."
+>You never (or rarely) write the wiki yourself — the LLM writes and maintains all of it. You're in charge of sourcing, exploration, and asking the right questions. The LLM does all the grunt work — the summarizing, cross-referencing, filing, and bookkeeping that makes a knowledge base actually useful over time.
 
 I agree that sorting and going thorough sources is annoying. BUT. And I found that nobody really addresses this (I found only Reddit treads) that sorting and going through the data, papers, PDF files is how you learn. Yes, having notes in a wiki is nice, but learning, in my case and I would say most of the researchers, is happening while YOU do "the grunt work".
 
@@ -46,4 +46,4 @@ That would mean that you went through it, comprehended what is written there and
 
 By the way, for highlighting I would recommend Zotero, where you can view your PDF file, highlight and use Zotero plugin in Obsidian to export not only PDF and citation but also highlights you made. I find it very useful and fitting the overall workflow. And it is actually useful tool for any researcher or/and self-learner.
 
->**But in the end, the best and most productive system is one you will actively use and maintain, because without that it is just a waste of time.**
+**But in the end, the best and most productive system is one you will actively use and maintain, because without that it is just a waste of time.**
