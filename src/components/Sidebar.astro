@@ -4,6 +4,8 @@ import IconMoon from "@/assets/icons/IconMoon.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconSearch from "@/assets/icons/IconSearch.svg";
 import Socials from "./Socials.astro";
+import IconNotByAIwhite from "@/assets/icons/Written-By-a-Human-Not-By-AI-Badge-white.svg";
+import IconNotByAIblack from "@/assets/icons/Written-By-a-Human-Not-By-AI-Badge-black.svg";
 
 const { pathname } = Astro.url;
 
@@ -93,6 +95,14 @@ const quote = "writing from the city of alchemists,\n using computers to study t
       </div>
     </div>
   </div>
+
+  <div class="mt-8 flex flex-col items-end gap-4 border-t border-border/30 pt-8 w-full">
+    <a href="https://notbyai.fyi/" class="p-2 transition-all hover:text-accent" title="Written by a human, not by AI">
+      <IconNotByAIblack class="h-6 w-auto dark:hidden" />
+      <IconNotByAIwhite class="hidden h-6 w-auto dark:block" />
+    </a>
+  </div>
+
 </aside>
 
 <script is:inline>
