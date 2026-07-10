@@ -5,6 +5,8 @@ pubDatetime: 2026-07-10
 slug:
 draft: false
 tags:
+  - rant
+  - media
 description: "My frustration with today's moves and series. In short: I really hate over-explanation."
 ---
 You know what pisses me off in today's TV shows, movies and such? **Over-explanation**. I feel as if these media think I'm a kid. Why do they have to just explain everything? Give me Chekhov gun, give me exposition, give me mystery. I don't want to hear the full story, I want to see and feel it. 
