@@ -1,7 +1,7 @@
 ---
 title: Over-explanation in today's media
 author: Charlene Olsen
-pubDatetime: 2026-07-08
+pubDatetime: 2026-07-10
 slug:
 draft: true
 tags:
@@ -16,7 +16,7 @@ Movies and series are a medium that offers a huge range of possibilities to conv
 
 Due to this range of possibilities, movies and series have a huge opportunity to convey any story the director and screenwriter desire. We have romance, science fiction, documentaries, and so much more. Furthermore, you can even see how this range creates different art styles. You can see it in how different directors set their stages, how they create the frame, what colours they use. For example *Denis Villeneuve* can create these huge spaces that feel so empty though so familiar, see Figure 1. So if skilled enough, or having a desire and creativity to create a story, these media can offer you a platform to do so.
 
-![[Pasted image 20260709100314.png]]
+![[Blade_Runner_frame.png]]
 **Figure 1:** A shot from Denis Villeneuve's movie *Blade Runner*. Picture taken from [here](https://ctvm.info/presentation-exceptionnelle-de-blade-runner-2049-de-denis-villeneuve/).
 
 ## Reasons behind over-explanation
