@@ -3,11 +3,11 @@ title: Over-explanation in today's media
 author: Charlene Olsen
 pubDatetime: 2026-07-10
 slug:
-draft: true
+draft: false
 tags:
 description: "My frustration with today's moves and series. In short: I really hate over-explanation."
 ---
-You know what pisses me off in today's TV shows, movies and such? **Over-explanation**. I feel as if these media think I'm a kiddo when watching. Why do they have to just explain everything? Give me Chekhov gun, give me exposition, give me mystery. I don't want to hear the full story, I want to see and feel it. 
+You know what pisses me off in today's TV shows, movies and such? **Over-explanation**. I feel as if these media think I'm a kid. Why do they have to just explain everything? Give me Chekhov gun, give me exposition, give me mystery. I don't want to hear the full story, I want to see and feel it. 
 
 I've been watching a bit of new *Avatar: The Last Airbender* in Netflix adaptation. And oh boy, it's kind of painful. It looks gorgeous, but I can say that about pretty much any movies or series nowadays. The look is not the issue, but the content is. 
 
@@ -31,11 +31,11 @@ Over-explanation in the end is the byproduct of over simplification of everythin
 
 I truly feel stupid when I watch some of the movies nowadays, I feel as if they have to do it all because I have a mind of a child. I love to explore difficult topics, but in the end I don't get even a chance to get the satisfaction of solving some mystery. 
 
-At the beginning of the MARVEL cinematic universe, I loved how they explored for example Tony's depression and PTSD or Cap's emotional trauma due to time jump. In *Age of Ultron*, I loved how they explored the whole concept of AI and the universal surveillance of the planet and any extraterrestrial threats. But today it is all the same. Last few movies from MARVEL felt emotionless, so uneventful. They pump so much fan service into movies to be fun and appealing for all that in the end it's not interesting. Same thing happened to me with the ninth movies in the Star Wars universe *The Rise of Skywalker*. Same issue. 
+At the beginning of the MARVEL cinematic universe, I loved how they explored for example Tony's depression and PTSD or Cap's emotional trauma due to time jump. In *Age of Ultron*, I loved how they explored the whole concept of AI and the universal surveillance of the planet and any extraterrestrial threats. But today it is all the same. The last few movies from MARVEL felt emotionless, so uneventful. They pump so much fan service into movies to be fun and appealing for all that in the end it's not interesting. Same thing happened to me with the ninth movies in the Star Wars universe *The Rise of Skywalker*. Same issue. 
 
-I'm not saying that all is bad. If I linger in the Star Wars universe, I LOVE *Andor*. Oh my goodness. It's just so good. It explores so many interesting topics. There is whole manifesto. I just love it from the bottom of my heart. *Andor* is an example of modern series that is incredibly well written.
+I'm not saying that all is bad. If I linger in the Star Wars universe, I LOVE *Andor*. Oh my goodness. It's just so good. It explores so many interesting topics. There is a whole manifesto written by one of the characters, which I recommend reading. I just love it from the bottom of my heart. *Andor* is an example of modern series that is incredibly well written. *Andor* just did it right. I highly encourage you to see it, if you haven't. When you watch, you are truly taken there into their little towns and their huge problems. Dialog feel real, as if they happen naturally. And plot and the world building is just immaculate. Sometimes *Andor* feels so slow, as if nothing is happening, but in the background, the story is building. It's just amazing storytelling.
 
 ## Conclusion?
-What's the way out here? To be real, I don't know. I feel as if corporations killed the sparkle of so many universes in favour of profit. And I hate it. I feel sad for the crew that made it, because they have done an incredible job. 
+What's the way out here? To be real, I don't know. I feel as if corporations killed the sparkle of so many universes in favour of profit. And I hate it. I feel sad for the crew that has to work under them, because they have done an incredible job under dire circumstances. 
 
 I hope that in the future we will see a lot of projects made by people for people. I really hope so. 
