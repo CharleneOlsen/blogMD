@@ -5,7 +5,6 @@ pubDatetime: 2026-02-04
 slug: bet
 draft: false
 ---
-
 why I always bet on the worst people?
 I give my life
 like a stray dog

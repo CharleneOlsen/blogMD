@@ -77,7 +77,7 @@ const poems = await Promise.all(
 
         <h2 id="poem-modal-title" class="mt-3 text-4xl font-semibold lowercase text-accent"></h2>
         <div id="poem-modal-date" class="mt-2 text-sm opacity-80"></div>
-        <div id="poem-modal-body" class="mt-6 prose prose-lg max-w-none text-foreground whitespace-pre-line"></div>
+        <div id="poem-modal-body" class="poem-modal-body mt-6 flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-2 max-w-none text-foreground"></div>
       </div>
     </div>
   </Main>
