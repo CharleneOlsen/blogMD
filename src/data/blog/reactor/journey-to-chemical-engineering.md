@@ -1,7 +1,7 @@
 ---
 title: Why have I chosen to become a chemical engineer?
 author: Charlene Olsen
-pubDatetime: 2026-04-18
+pubDatetime: 2026-07-13
 slug:
 draft: false
 tags:
