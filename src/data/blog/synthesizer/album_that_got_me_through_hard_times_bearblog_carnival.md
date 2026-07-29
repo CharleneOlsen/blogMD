@@ -3,7 +3,7 @@ title: An album that got me through hard times - Bear blog carnival
 author: Charlene Olsen
 pubDatetime: 2026-07-24
 slug:
-draft: true
+draft: false
 tags:
   - music
   - carnival
@@ -75,4 +75,4 @@ These lyrics lay very heavy on my chest every time I hear them. I always like to
 ## Legacy
 From all these artists few of them stuck with me my whole life. Notably, *José González*, *Bright Eyes*, *Foals* but mainly *Alt-J*.  After I played the game I listened to Alt-J all the time, I even wanted to go to their concert, but shortly after I found out about them, they stopped touring, so it was a huge bummer. 
 
-But this playlist was main building block of my taste in music. Because of Life Is Strange I fell in love with indie rock as a genre. I will never forget what this playlist gave me. It gave me strength to pull through, it made me smile when I needed it most. 
+But this playlist was main building block of my taste in music. Because of Life Is Strange I fell in love with indie rock as a genre. I will never forget what this playlist gave me. It gave me strength to pull through, it made me smile when I needed it most. It held my hand when there was no one.
