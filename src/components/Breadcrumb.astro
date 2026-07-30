@@ -38,7 +38,6 @@ if (breadcrumbList[0] === "tags" && breadcrumbList[2] && !isNaN(Number(breadcrum
           </li>
         ) : (
           <li>
-            {/* Oprava linku pro vnořené cesty (např. home > tags > můj-tag) */}
             <a href={`/${breadcrumbList.slice(0, index + 1).join("/")}/`} class="opacity-70">
               {breadcrumb}
             </a>

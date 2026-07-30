@@ -4,6 +4,7 @@ import { SITE } from "@/config";
 
 export const BLOG_PATH = "src/data/blog";
 export const POETRY_PATH = "src/data/scriptorium/poetry";
+export const WORKBENCH_PATH = "src/data/workbench";
 
 const blog = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: `./${BLOG_PATH}` }),
@@ -43,4 +44,18 @@ const poetry = defineCollection({
     }),
 });
 
-export const collections = { blog, poetry };
+const workbench = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: `./${WORKBENCH_PATH}` }),
+  schema: () =>
+    z.object({
+      author: z.string().default(SITE.author),
+      pubDatetime: z.date(),
+      modDatetime: z.date().optional().nullable(),
+      title: z.string(),
+      draft: z.boolean().optional(),
+      tags: z.array(z.string()).default(["others"]),
+      description: z.string(),
+    }),
+});
+
+export const collections = { blog, poetry, workbench };
