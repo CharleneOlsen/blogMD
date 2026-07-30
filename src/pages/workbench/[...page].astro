@@ -1,6 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro";
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { getCollection, render } from "astro:content";
 import { enrichPost } from "@/utils/enrichPosts";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
@@ -10,22 +10,20 @@ import Datetime from "@/components/Datetime.astro";
 import Tag from "@/components/Tag.astro";
 import { SITE } from "@/config";
 
-export const getStaticPaths = (async ({ paginate }: { paginate: any }) => {
-  const rawPosts = await getCollection("workbench", ({ data }: any) => !data.draft);
-  const posts = await Promise.all(rawPosts.map(enrichPost));
-  const workbenchPosts = posts.sort((a: any, b: any) =>
-    b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime()
+export const getStaticPaths = (async ({ paginate }) => {
+  const rawPosts = await getCollection("workbench", ({ data }) => !data.draft);
+  const posts = await Promise.all(rawPosts.map(post => enrichPost<"workbench">(post)));
+  const workbenchPosts = posts.sort(
+    (a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime()
   );
 
   return paginate(workbenchPosts, { pageSize: SITE.postPerPage });
 }) satisfies GetStaticPaths;
 
-const { page } = Astro.props as {
-  page: { data: CollectionEntry<"workbench">[]; lastPage: number };
-};
+const { page } = Astro.props;
 
-const entries: { post: CollectionEntry<"workbench">; Content: any }[] = await Promise.all(
-  page.data.map(async (post: CollectionEntry<"workbench">) => {
+const entries = await Promise.all(
+  page.data.map(async post => {
     const { Content } = await render(post);
     return { post, Content };
   })
