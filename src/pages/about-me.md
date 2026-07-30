@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About me"
+title: "about me"
 ---
 Who am I? Why am I here? What are you doing here?
 

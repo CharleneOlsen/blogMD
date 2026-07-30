@@ -1,0 +1,71 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render } from "astro:content";
+import { enrichPost } from "@/utils/enrichPosts";
+import Main from "@/layouts/Main.astro";
+import Layout from "@/layouts/Layout.astro";
+import Footer from "@/components/Footer.astro";
+import Pagination from "@/components/Pagination.astro";
+import Datetime from "@/components/Datetime.astro";
+import Tag from "@/components/Tag.astro";
+import { SITE } from "@/config";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const rawPosts = await getCollection("workbench", ({ data }) => !data.draft);
+  const posts = await Promise.all(rawPosts.map(post => enrichPost<"workbench">(post)));
+  const workbenchPosts = posts.sort(
+    (a, b) => b.data.pubDatetime.getTime() - a.data.pubDatetime.getTime()
+  );
+
+  return paginate(workbenchPosts, { pageSize: SITE.postPerPage });
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+
+const entries = await Promise.all(
+  page.data.map(async post => {
+    const { Content } = await render(post);
+    return { post, Content };
+  })
+);
+---
+
+<Layout title={`the workbench | ${SITE.title}`}>
+  <Main
+    pageTitle="the workbench"
+    pageDesc="A place where I learn from creations of others. My content bookmarking and notes on the web."
+  >
+    {entries.map(({ post, Content }, index) => (
+      <div class="mb-12">
+        <h2 class="inline-block font-bold text-accent lg:text-2xl">
+          {post.data.title}
+        </h2>
+        <div class="my-2 flex items-center gap-2">
+          <Datetime
+            pubDatetime={post.data.pubDatetime}
+            modDatetime={post.data.modDatetime}
+            size="lg"
+          />
+        </div>
+        {post.data.tags?.length ? (
+          <div class="my-2 flex flex-wrap items-center gap-2 opacity-80">
+            <span>tags:</span>
+            <ul class="flex flex-wrap gap-x-2 list-none p-0 m-0">
+              {post.data.tags.map((tag: string) => (
+                <Tag tag={tag} tagName={tag} size="lg" variant="inline" />
+              ))}
+            </ul>
+          </div>
+        ) : null}
+        <article class="app-prose mt-8 w-full max-w-app prose-pre:bg-(--background) dark:prose-pre:bg-(--background)">
+          <Content />
+        </article>
+        {index !== entries.length - 1 && <hr class="my-6 border" />}
+      </div>
+    ))}
+  </Main>
+
+  <Pagination {page} />
+
+  <Footer noMarginTop={page.lastPage > 1} />
+</Layout>
