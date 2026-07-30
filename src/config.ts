@@ -16,7 +16,7 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  listening: "If You Wait by London Grammar",
+  listening: "Texas Sun by Khruangbin and Leon Bridges",
   reading: "Metro 2033 by Dmitry Glukhovsky",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
