@@ -33,29 +33,27 @@ const hideRoomLabel = roomName
 ---
 
 <li class="my-6">
-  <div class="inline-flex items-center gap-2">
-    <Heading style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}>
-      <a
-        href={getPath(id, filePath)}
-        class:list={[
-          "inline-block text-lg font-medium text-accent",
-          "underline-offset-4 hover:underline",
-          "focus-visible:no-underline focus-visible:underline-offset-0",
-        ]}
-      >
-        {title}
-      </a>
-    </Heading>
+  <Heading style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}>
+    <a
+      href={getPath(id, filePath)}
+      class:list={[
+        "text-lg font-medium text-accent",
+        "underline-offset-4 hover:underline",
+        "focus-visible:no-underline focus-visible:underline-offset-0",
+      ]}
+    >
+      {title}
+    </a>
     {roomName && !hideRoomLabel && (
       <a
         href={`/notes/${roomName}/`}
-        class="ml-2 rounded-full px-2 py-0.5 text-xs font-semibold"
+        class="ml-2 whitespace-nowrap rounded-full px-2 py-0.5 align-middle text-xs font-semibold"
         style={{ color: "#0FFFF3", backgroundColor: "rgba(15, 255, 243, 0.12)" }}
       >
         {room}
       </a>
     )}
-  </div>
+  </Heading>
   <Datetime {...props} />
   <p>{description}</p>
 </li>
