@@ -2,7 +2,7 @@
 title: mist
 author: Charlene Olsen
 pubDatetime: 2025-11-06
-slug:
+slug: mist
 draft: false
 ---
 mist lays heavy

@@ -2,7 +2,7 @@
 title: fresh air
 author: Charlene Olsen
 pubDatetime: 2025-11-21
-slug:
+slug: fresh-air
 draft: false
 ---
 there's something about the fresh air 

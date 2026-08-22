@@ -2,7 +2,7 @@
 title: suffering in eyes
 author: Charlene Olsen
 pubDatetime: 2024-01-15
-slug:
+slug: suffering-in-eyes
 draft: false
 ---
 he could tell

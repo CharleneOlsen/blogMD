@@ -2,7 +2,7 @@
 title: death
 author: Charlene Olsen
 pubDatetime: 2025-06-12
-slug:
+slug: death
 draft: false
 ---
 every day

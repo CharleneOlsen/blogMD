@@ -2,7 +2,7 @@
 title: those sunny days
 author: Charlene Olsen
 pubDatetime: 2026-02-04
-slug:
+slug: those-sunny-days
 draft: false
 ---
 I was hit with a wave of warm feelings

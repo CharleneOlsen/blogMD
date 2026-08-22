@@ -2,7 +2,7 @@
 title: In the eye of the storm
 author: Charlene Olsen
 pubDatetime: 2026-08-14
-slug:
+slug: the-eye-of-storm
 draft: false
 ---
 sun is shining 
