@@ -8,6 +8,7 @@ tags:
   - book
   - video
   - self-help
+  - recommendation
 ---
 I am very into a good self-help book, but there are plenty to read.
 
