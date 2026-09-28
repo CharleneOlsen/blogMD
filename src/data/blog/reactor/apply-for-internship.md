@@ -1,9 +1,9 @@
 ---
 title: Why should you apply for an internship?
 author: Charlene Olsen
-pubDatetime: 2026-08-23
+pubDatetime: 2026-09-28
 slug:
-draft: true
+draft: false
 tags:
   - chemical-engineering
   - academics
