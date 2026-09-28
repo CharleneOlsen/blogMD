@@ -16,8 +16,8 @@ export const SITE = {
     text: "Edit page",
     url: "https://github.com/satnaing/astro-paper/edit/main/",
   },
-  listening: "Truth Is a Beautiful Thing by London Grammar",
-  reading: "The chrysalids by John Wyndham",
+  listening: "All My Demons Greeting Me As A Friend (The Moth Tapes) by AURORA",
+  reading: "The Time Machine by H.G. Wells",
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en", // html lang code. Set this empty and default will be "en"
